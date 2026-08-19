@@ -2,7 +2,11 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Globe from 'react-globe.gl'
 import { TYPE_COLORS } from '../typeColors'
 
-const MIN_ALTITUDE = 0.25
+const MIN_ALTITUDE = 0.03
+
+function darkTileUrl(x, y, l) {
+  return `https://a.basemaps.cartocdn.com/dark_all/${l}/${x}/${y}.png`
+}
 
 function clusterPoints(points, binDeg) {
   const bins = new Map()
@@ -50,9 +54,6 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
     globe.pointOfView({ lat: 39.8283, lng: -98.5795, altitude: 1.8 }, 0)
     const controls = globe.controls()
     controls.enableDamping = true
-    // The globe texture is a fixed-resolution image — zooming past this
-    // point just magnifies its pixels into a blur. Markers already give
-    // full detail at close range, so cap how far in the camera can go.
     controls.minDistance = 100 * (1 + MIN_ALTITUDE)
   }, [])
 
@@ -132,7 +133,8 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
         ref={globeRef}
         width={size.width}
         height={size.height}
-        globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+        globeTileEngineUrl={darkTileUrl}
+        globeTileEngineMaxLevel={8}
         backgroundColor="rgba(0,0,0,0)"
         onZoom={handleZoom}
         htmlElementsData={clusters}
