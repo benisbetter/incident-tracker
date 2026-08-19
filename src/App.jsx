@@ -20,6 +20,8 @@ export default function App() {
   const [filters, setFilters] = useState(DEFAULT_FILTERS)
   const [selected, setSelected] = useState(null)
   const [mainTab, setMainTab] = useState('globe')
+  const [drawerOpen, setDrawerOpen] = useState(false)
+  const [clusterIncidents, setClusterIncidents] = useState(null)
 
   const filteredIncidents = useMemo(() => {
     return incidents.filter((incident) => {
@@ -46,7 +48,13 @@ export default function App() {
         </div>
       </header>
 
-      <FilterBar filters={filters} onChange={setFilters} />
+      <FilterBar
+        filters={filters}
+        onChange={(next) => {
+          setFilters(next)
+          setClusterIncidents(null)
+        }}
+      />
 
       <div className="main-tabs">
         <button className={`main-tab ${mainTab === 'globe' ? 'active' : ''}`} onClick={() => setMainTab('globe')}>
@@ -59,7 +67,14 @@ export default function App() {
 
       <div className="main-view">
         <div className="map-column" style={{ display: mainTab === 'globe' ? 'block' : 'none' }}>
-          <GlobeView incidents={filteredIncidents} onSelectIncident={setSelected} />
+          <GlobeView
+            incidents={filteredIncidents}
+            onSelectIncident={setSelected}
+            onClusterSelect={(items) => {
+              setClusterIncidents(items)
+              setDrawerOpen(true)
+            }}
+          />
         </div>
         {mainTab === 'charts' && (
           <div className="chart-column">
@@ -70,7 +85,14 @@ export default function App() {
 
       <DonateSection />
 
-      <IncidentDrawer incidents={filteredIncidents} onSelectIncident={setSelected} />
+      <IncidentDrawer
+        incidents={filteredIncidents}
+        clusterIncidents={clusterIncidents}
+        onSelectIncident={setSelected}
+        open={drawerOpen}
+        onOpenChange={setDrawerOpen}
+        onClearCluster={() => setClusterIncidents(null)}
+      />
       <IncidentDetail incident={selected} onClose={() => setSelected(null)} />
     </div>
   )

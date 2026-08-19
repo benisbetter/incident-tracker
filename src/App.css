@@ -436,6 +436,24 @@ html, body {
   font-weight: 700;
 }
 
+.drawer-clear-cluster {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px 16px;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: var(--panel-alt);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.drawer-clear-cluster:hover {
+  background: #1a2036;
+}
+
 .incident-drawer-close {
   margin-left: auto;
   background: none;

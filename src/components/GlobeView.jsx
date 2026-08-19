@@ -25,7 +25,7 @@ function clusterPoints(points, binDeg) {
   return out
 }
 
-export default function GlobeView({ incidents, onSelectIncident }) {
+export default function GlobeView({ incidents, onSelectIncident, onClusterSelect }) {
   const globeRef = useRef()
   const containerRef = useRef()
   const [size, setSize] = useState({ width: 600, height: 420 })
@@ -61,12 +61,21 @@ export default function GlobeView({ incidents, onSelectIncident }) {
     [incidents]
   )
 
-  // binDeg shrinks as altitude drops so zooming in always resolves clusters into
-  // smaller, more precise groups — down to single incidents at close range.
-  const clusters = useMemo(() => {
-    const binDeg = Math.min(30, Math.max(0.03, altitude * 5))
-    return clusterPoints(points, binDeg)
-  }, [points, altitude])
+  // Fixed zoom levels (like map tile clustering) instead of a continuous
+  // altitude*factor formula — a smoothly-varying bin size reshuffles which
+  // points share a bin on every tiny camera move, making counts appear to
+  // jump around. Snapping to discrete steps keeps clusters stable while
+  // panning/zooming within a level, and lets them merge/split predictably
+  // when crossing a level.
+  const ZOOM_LEVELS = [25, 12, 6, 3, 1.5, 0.7, 0.35, 0.15, 0.06]
+  const binDeg = useMemo(() => {
+    for (const level of ZOOM_LEVELS) {
+      if (altitude >= level) return level
+    }
+    return ZOOM_LEVELS[ZOOM_LEVELS.length - 1]
+  }, [altitude])
+
+  const clusters = useMemo(() => clusterPoints(points, binDeg), [points, binDeg])
 
   const handleZoom = useCallback(({ altitude: alt }) => {
     clearTimeout(altitudeTimer.current)
@@ -75,6 +84,7 @@ export default function GlobeView({ incidents, onSelectIncident }) {
 
   const handleClusterClick = useCallback(
     (cluster) => {
+      onClusterSelect?.(cluster.items.map((p) => p.incident))
       if (cluster.count === 1) {
         onSelectIncident(cluster.items[0].incident)
         return
@@ -83,7 +93,7 @@ export default function GlobeView({ incidents, onSelectIncident }) {
       const nextAltitude = Math.max(0.02, altitude / 3.2)
       globe.pointOfView({ lat: cluster.lat, lng: cluster.lng, altitude: nextAltitude }, 500)
     },
-    [altitude, onSelectIncident]
+    [altitude, onSelectIncident, onClusterSelect]
   )
 
   const makeClusterEl = useCallback(
