@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/incidents.js": {
+      "maxDuration": 60
+    }
+  }
+}

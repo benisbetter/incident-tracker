@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import rawIncidents from './data/incidents.json'
 import GlobeView from './components/GlobeView'
 import ChartsPanel from './components/ChartsPanel'
@@ -16,12 +16,24 @@ const DEFAULT_FILTERS = {
 }
 
 export default function App() {
-  const [incidents] = useState(rawIncidents)
+  const [incidents, setIncidents] = useState(rawIncidents)
   const [filters, setFilters] = useState(DEFAULT_FILTERS)
   const [selected, setSelected] = useState(null)
   const [mainTab, setMainTab] = useState('globe')
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [clusterIncidents, setClusterIncidents] = useState(null)
+
+  useEffect(() => {
+    fetch('/api/incidents')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (Array.isArray(data) && data.length > 0) setIncidents(data)
+      })
+      .catch(() => {
+        // offline, running plain `vite dev`, or not deployed on Vercel —
+        // keep showing the bundled snapshot, no error surfaced to the user
+      })
+  }, [])
 
   const filteredIncidents = useMemo(() => {
     return incidents.filter((incident) => {
