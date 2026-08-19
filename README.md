@@ -25,7 +25,7 @@ Outputs a static `dist/` folder — drop it on Vercel, Netlify, or any static ho
 
 ## Data
 
-`src/data/incidents.json` currently ships with 5 **placeholder** records (`verified: false`, description says "PLACEHOLDER"). Replace them with real, fact-checked incidents before using this on air.
+`src/data/incidents.json` ships with 6 real, sourced incidents (AP/JTA/CBS/DOJ), each `verified: true` with a source link. Add more the same way — same JSON shape, no code changes needed.
 
 Each record:
 
