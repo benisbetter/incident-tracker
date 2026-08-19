@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import rawIncidents from './data/incidents.json'
-import MapView from './components/MapView'
+import GlobeView from './components/GlobeView'
 import Timeline from './components/Timeline'
 import FilterBar from './components/FilterBar'
 import IncidentList from './components/IncidentList'
@@ -40,7 +40,7 @@ export default function App() {
 
       <div className="main-columns">
         <div className="map-column">
-          <MapView incidents={filteredIncidents} onSelectIncident={setSelected} />
+          <GlobeView incidents={filteredIncidents} onSelectIncident={setSelected} />
         </div>
         <div className="list-column">
           <IncidentList incidents={filteredIncidents} onSelectIncident={setSelected} />
