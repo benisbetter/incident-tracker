@@ -2,8 +2,6 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Globe from 'react-globe.gl'
 import { TYPE_COLORS } from '../typeColors'
 
-const RAW_ALTITUDE_THRESHOLD = 0.15
-
 function clusterPoints(points, binDeg) {
   const bins = new Map()
   for (const p of points) {
@@ -63,9 +61,10 @@ export default function GlobeView({ incidents, onSelectIncident }) {
     [incidents]
   )
 
+  // binDeg shrinks as altitude drops so zooming in always resolves clusters into
+  // smaller, more precise groups — down to single incidents at close range.
   const clusters = useMemo(() => {
-    if (altitude <= RAW_ALTITUDE_THRESHOLD) return null
-    const binDeg = Math.min(30, Math.max(0.6, altitude * 6))
+    const binDeg = Math.min(30, Math.max(0.03, altitude * 5))
     return clusterPoints(points, binDeg)
   }, [points, altitude])
 
@@ -81,7 +80,7 @@ export default function GlobeView({ incidents, onSelectIncident }) {
         return
       }
       const globe = globeRef.current
-      const nextAltitude = Math.max(0.08, altitude / 3.2)
+      const nextAltitude = Math.max(0.02, altitude / 3.2)
       globe.pointOfView({ lat: cluster.lat, lng: cluster.lng, altitude: nextAltitude }, 500)
     },
     [altitude, onSelectIncident]
@@ -90,12 +89,18 @@ export default function GlobeView({ incidents, onSelectIncident }) {
   const makeClusterEl = useCallback(
     (d) => {
       const el = document.createElement('div')
-      el.className = 'globe-cluster'
-      const px = Math.min(56, 22 + Math.sqrt(d.count) * 3)
-      el.style.width = `${px}px`
-      el.style.height = `${px}px`
-      el.style.backgroundColor = d.color
-      el.textContent = d.count > 1 ? d.count : ''
+      if (d.count === 1) {
+        el.className = 'globe-point'
+        el.style.backgroundColor = d.color
+      } else {
+        el.className = 'globe-cluster'
+        const px = Math.min(38, 14 + Math.sqrt(d.count) * 2)
+        el.style.width = `${px}px`
+        el.style.height = `${px}px`
+        el.style.fontSize = px < 22 ? '10px' : '11px'
+        el.style.backgroundColor = d.color
+        el.textContent = d.count
+      }
       el.addEventListener('click', (e) => {
         e.stopPropagation()
         handleClusterClick(d)
@@ -114,15 +119,7 @@ export default function GlobeView({ incidents, onSelectIncident }) {
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
         backgroundColor="rgba(0,0,0,0)"
         onZoom={handleZoom}
-        pointsData={clusters ? [] : points}
-        pointLat="lat"
-        pointLng="lng"
-        pointColor="color"
-        pointRadius={0.35}
-        pointAltitude={0.005}
-        pointLabel={(p) => `${p.incident.date} — ${p.incident.location.city}, ${p.incident.location.state}`}
-        onPointClick={(p) => onSelectIncident(p.incident)}
-        htmlElementsData={clusters || []}
+        htmlElementsData={clusters}
         htmlLat="lat"
         htmlLng="lng"
         htmlElement={makeClusterEl}

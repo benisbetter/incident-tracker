@@ -19,6 +19,7 @@ export default function App() {
   const [incidents] = useState(rawIncidents)
   const [filters, setFilters] = useState(DEFAULT_FILTERS)
   const [selected, setSelected] = useState(null)
+  const [mainTab, setMainTab] = useState('globe')
 
   const filteredIncidents = useMemo(() => {
     return incidents.filter((incident) => {
@@ -47,13 +48,24 @@ export default function App() {
 
       <FilterBar filters={filters} onChange={setFilters} />
 
-      <div className="main-columns">
-        <div className="map-column">
+      <div className="main-tabs">
+        <button className={`main-tab ${mainTab === 'globe' ? 'active' : ''}`} onClick={() => setMainTab('globe')}>
+          Globe
+        </button>
+        <button className={`main-tab ${mainTab === 'charts' ? 'active' : ''}`} onClick={() => setMainTab('charts')}>
+          Charts
+        </button>
+      </div>
+
+      <div className="main-view">
+        <div className="map-column" style={{ display: mainTab === 'globe' ? 'block' : 'none' }}>
           <GlobeView incidents={filteredIncidents} onSelectIncident={setSelected} />
         </div>
-        <div className="chart-column">
-          <ChartsPanel incidents={filteredIncidents} />
-        </div>
+        {mainTab === 'charts' && (
+          <div className="chart-column">
+            <ChartsPanel incidents={filteredIncidents} />
+          </div>
+        )}
       </div>
 
       <DonateSection />
