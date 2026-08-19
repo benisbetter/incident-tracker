@@ -17,16 +17,23 @@ export default function FilterBar({ filters, onChange }) {
   return (
     <div className="filter-bar">
       <div className="filter-types">
-        {ALL_TYPES.map((type) => (
-          <label key={type} className="filter-checkbox" style={{ borderColor: TYPE_COLORS[type] }}>
-            <input
-              type="checkbox"
-              checked={filters.types.includes(type)}
-              onChange={() => toggleType(type)}
-            />
-            {TYPE_LABELS[type]}
-          </label>
-        ))}
+        {ALL_TYPES.map((type) => {
+          const active = filters.types.includes(type)
+          return (
+            <button
+              key={type}
+              className={`type-chip ${active ? 'active' : ''}`}
+              style={
+                active
+                  ? { borderColor: TYPE_COLORS[type], backgroundColor: `${TYPE_COLORS[type]}22`, color: TYPE_COLORS[type] }
+                  : undefined
+              }
+              onClick={() => toggleType(type)}
+            >
+              {TYPE_LABELS[type]}
+            </button>
+          )
+        })}
       </div>
       <div className="filter-dates">
         <label>
@@ -45,7 +52,7 @@ export default function FilterBar({ filters, onChange }) {
             onChange={(e) => onChange({ ...filters, dateTo: e.target.value })}
           />
         </label>
-        <button onClick={reset}>Reset filters</button>
+        <button className="reset-btn" onClick={reset}>Reset</button>
       </div>
     </div>
   )

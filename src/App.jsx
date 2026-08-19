@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react'
 import rawIncidents from './data/incidents.json'
 import GlobeView from './components/GlobeView'
-import Timeline from './components/Timeline'
+import ChartsPanel from './components/ChartsPanel'
 import FilterBar from './components/FilterBar'
-import IncidentList from './components/IncidentList'
+import IncidentDrawer from './components/IncidentDrawer'
 import IncidentDetail from './components/IncidentDetail'
 import DonateSection from './components/DonateSection'
 import { TYPE_COLORS } from './typeColors'
@@ -32,8 +32,17 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Antisemitism Incident Tracker</h1>
-        <p>Tracking incidents reported since October 7, 2023</p>
+        <div className="app-title">
+          <span className="app-title-mark">✡</span>
+          <div>
+            <h1>Antisemitism Incident Tracker</h1>
+            <p>Tracking incidents reported since October 7, 2023</p>
+          </div>
+        </div>
+        <div className="app-header-stat">
+          <span className="app-header-stat-number">{filteredIncidents.length.toLocaleString()}</span>
+          <span className="app-header-stat-label">incidents shown</span>
+        </div>
       </header>
 
       <FilterBar filters={filters} onChange={setFilters} />
@@ -42,17 +51,14 @@ export default function App() {
         <div className="map-column">
           <GlobeView incidents={filteredIncidents} onSelectIncident={setSelected} />
         </div>
-        <div className="list-column">
-          <IncidentList incidents={filteredIncidents} onSelectIncident={setSelected} />
+        <div className="chart-column">
+          <ChartsPanel incidents={filteredIncidents} />
         </div>
-      </div>
-
-      <div className="timeline-section">
-        <Timeline incidents={filteredIncidents} />
       </div>
 
       <DonateSection />
 
+      <IncidentDrawer incidents={filteredIncidents} onSelectIncident={setSelected} />
       <IncidentDetail incident={selected} onClose={() => setSelected(null)} />
     </div>
   )
