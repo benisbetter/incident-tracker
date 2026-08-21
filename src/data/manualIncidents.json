@@ -898,5 +898,1730 @@
     "source_url": "https://news.met.police.uk/news/detectives-appeal-for-information-after-father-and-son-assaulted-in-tottenham-511487",
     "source_name": "Metropolitan Police",
     "verified": true
+  },
+  {
+    "date": "2023-10-13",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A participant in a spontaneous anti-Israel gathering called a journalist part of the “Jewish press” and tore his hat from his head.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10-18",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "Unknown attackers threw two Molotov cocktails at the Kahal Adass Jisroel community complex; they missed the building and security personnel extinguished them.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 51.5328,
+      "lng": 9.9352,
+      "city": "Göttingen",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A man wearing a kippah was threatened by a person who said he would rip the “little cap” from his head.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 48.1371,
+      "lng": 11.5754,
+      "city": "Munich",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Two men threatened a group carrying Israeli flags with death and insulted them in Arabic.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 48.1371,
+      "lng": 11.5754,
+      "city": "Munich",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "At Munich Central Station, a man shouted through a megaphone that Israel was not a country, all land belonged to Palestine, and Jews were “devils and monsters.”.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 50.1106,
+      "lng": 8.6821,
+      "city": "Frankfurt am Main",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“Free Palestine from Zionists!” with a Star of David and “Save Israel from Zionists” was written on a university restroom door.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 50.1106,
+      "lng": 8.6821,
+      "city": "Frankfurt am Main",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A gathering displayed the Shoah-reversal slogan “One Holocaust does not justify another.”.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 54.3233,
+      "lng": 10.1228,
+      "city": "Kiel",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A group carrying Palestinian flags chanted “child murderer Israel” after a rally held in solidarity with Israel.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 48.7784,
+      "lng": 9.18,
+      "city": "Stuttgart",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Demonstrators chanted “Khaybar, Khaybar, ya yahud,” a slogan RIAS identifies as a religiously framed call for violence against Jews.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 51.3406,
+      "lng": 12.3747,
+      "city": "Leipzig",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“Israel die! NS now!” was written on a bridge.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 51.3406,
+      "lng": 12.3747,
+      "city": "Leipzig",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Near an anti-Israel demonstration, a group of men subjected a woman to antisemitic and sexist abuse and threatened sexual violence after she rejected their chants.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A Star of David was painted on the door of a house where a Jewish woman lived.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 52.3745,
+      "lng": 9.7386,
+      "city": "Hanover",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“Free Palestine” was written on the apartment door of an Israeli woman.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 50.9384,
+      "lng": 6.9599,
+      "city": "Cologne",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Students made repeated antisemitic statements in class and on a playground, including that Jews controlled politics and profited from wars. Treat as one documented school episode, not one record per statement.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 49.913,
+      "lng": 7.45,
+      "city": "Rhineland-Palatinate",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Students told a classmate that the classmate’s family in Israel would die and Israel would be destroyed. The report withholds the town; regional centroid is permitted.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 50.981,
+      "lng": 11.3297,
+      "city": "Weimar",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A campus notice falsely blamed Israel for the Al-Ahli hospital blast and labeled it a “Holocaust.”.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 49.6768,
+      "lng": 12.1561,
+      "city": "Weiden in der Oberpfalz",
+      "state": "Germany"
+    },
+    "type": "online",
+    "severity": "low",
+    "description": "After a person shared information about a fundraiser for Israeli civilians, an acquaintance sent an antisemitic WhatsApp response blaming Jews collectively.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "A hostage poster was defaced with “Zionist propaganda.”.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-10",
+    "location": {
+      "lat": 50.981,
+      "lng": 11.3297,
+      "city": "Weimar",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A poster showing hostages kidnapped by Hamas was defaced with “All Jews lie.”.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11-09",
+    "location": {
+      "lat": 50.6872,
+      "lng": 7.6456,
+      "city": "Altenkirchen",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "An object was thrown at the window of a couple displaying an Israeli flag and Star of David, cracking the glass while someone was in the room.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11-09",
+    "location": {
+      "lat": 54.0924,
+      "lng": 12.0991,
+      "city": "Rostock",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A tram passenger blamed Jews collectively for Israeli politics and invoked the charge that Jews killed Jesus; another passenger who intervened was insulted.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11-09",
+    "location": {
+      "lat": 51.5328,
+      "lng": 9.9352,
+      "city": "Göttingen",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Calls of “Free Palestine” twice interrupted a ceremony recounting the stories of Jewish students deported during the Shoah.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 47.9961,
+      "lng": 7.8494,
+      "city": "Freiburg im Breisgau",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "The Jewish community received a letter threatening another “Kristallnacht” in Freiburg.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 50.981,
+      "lng": 11.3297,
+      "city": "Weimar",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A portrait of an Auschwitz survivor in a Buchenwald Memorial exhibition was pelted by an unknown person.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 53.0758,
+      "lng": 8.8072,
+      "city": "Bremen",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "An anti-Israel demonstrator photographed a woman counter-protester and said the country would be free only when all Jews disappeared, then declared “I am an antisemite.”.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Students accused a Jewish classmate of defending an “Israeli terror state” and told him that “someone like him” should not be surprised by hostility.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A passerby at a November 9 memorial event directed antisemitic and sexist insults at a woman.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 51.2254,
+      "lng": 6.7763,
+      "city": "Düsseldorf",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A gathering displayed a poster comparing Nazi extermination practices with Israeli military action and asking “Where’s the difference?”.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 53.875,
+      "lng": 13.9239,
+      "city": "Usedom",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A wooden sign was marked with antisemitic and antigypsy football-related graffiti reading “Jews, Gypsies, Chemnitzer FC.”.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 53.1435,
+      "lng": 8.2146,
+      "city": "Oldenburg",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A man distributing antisemitic university flyers shouted “Zionists are murderers” when asked to stop; the flyer also blamed Zionists for Nazism.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2023-12",
+    "location": {
+      "lat": 51.1045,
+      "lng": 13.2017,
+      "city": "Saxony",
+      "state": "Germany"
+    },
+    "type": "injury",
+    "severity": "moderate",
+    "description": "A student called a teacher a “dirty Jew” and “Frau Hitler,” threatened her, and injured her by slamming a door. The town is withheld; use Saxony centroid.",
+    "source_url": "https://report-antisemitism.de/documents/2024-06-2024_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2023.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-02-02",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "injury",
+    "severity": "high",
+    "description": "Jewish student Lahav Shapira was repeatedly punched and kicked after leaving a bar, suffering facial fractures requiring surgery. A court later found an antisemitic motive.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-04-05",
+    "location": {
+      "lat": 53.1435,
+      "lng": 8.2146,
+      "city": "Oldenburg",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "An incendiary device was thrown at the Oldenburg synagogue, causing a fire that was extinguished without injuries.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-09-05",
+    "location": {
+      "lat": 48.1371,
+      "lng": 11.5754,
+      "city": "Munich",
+      "state": "Germany"
+    },
+    "type": "injury",
+    "severity": "high",
+    "description": "A gunman fired at the Israeli Consulate General and Munich Documentation Centre on the anniversary of the 1972 Olympics attack; two people suffered blast trauma and police killed the attacker.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-04",
+    "location": {
+      "lat": 53.1435,
+      "lng": 8.2146,
+      "city": "Oldenburg",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "Two men restrained a Jewish schoolgirl on her way to school, threatened her and called her a “dirty Jew” before she escaped. RIAS says this occurred shortly before the synagogue arson.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-08",
+    "location": {
+      "lat": 50.9183,
+      "lng": 14.2119,
+      "city": "Saxon Switzerland",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A hiker confronted a woman whose bag read “Feminist Zionist,” compared Gaza to Auschwitz, pushed her and called her a Nazi.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-05",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A person threatened a man wearing an “I stand with Israel” patch that he would receive the same treatment as his “Jewish friends.”.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-06",
+    "location": {
+      "lat": 50.6521,
+      "lng": 9.1624,
+      "city": "Hesse",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "An institution received a letter calling Jews pigs, marking Netanyahu with a swastika and containing an unidentified powder. Use institution/victim location if regional report supplies it; otherwise Hesse centroid.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-03",
+    "location": {
+      "lat": 53.5503,
+      "lng": 10.0007,
+      "city": "Hamburg",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Two swastikas were painted beside the front door of a Jewish couple’s home.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-04",
+    "location": {
+      "lat": 51.3406,
+      "lng": 12.3747,
+      "city": "Leipzig",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A Star of David was painted on a house where a Jewish person lived.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10-07",
+    "location": {
+      "lat": 51.0496,
+      "lng": 12.1369,
+      "city": "Zeitz",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "Stolpersteine were stolen from five locations on the anniversary of the Hamas massacre. Treat as one coordinated series unless the five addresses and separate narratives are recovered.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-09",
+    "location": {
+      "lat": 52.165,
+      "lng": 13.6592,
+      "city": "Groß Köris",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“JEWS OUT” and a swastika were written on a railway platform.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-03",
+    "location": {
+      "lat": 49.2344,
+      "lng": 6.9964,
+      "city": "Saarbrücken",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“Judaism is criminality” was spray-painted in the pedestrian zone.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-11",
+    "location": {
+      "lat": 53.6288,
+      "lng": 11.4148,
+      "city": "Schwerin",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A taxi driver told a passenger that his daughter’s Jewish Israeli landlord charged high rent because he was Jewish.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-09",
+    "location": {
+      "lat": 54.0924,
+      "lng": 12.0991,
+      "city": "Stralsund-to-Rostock train",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "About five teenage Hansa Rostock fans repeatedly sang the “subway song,” describing a rail line to Auschwitz aimed at opposing fans. Geocode Rostock or route centroid consistently.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 51.2254,
+      "lng": 6.7763,
+      "city": "Düsseldorf",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Demonstrators carried signs equating Israel with Nazi perpetrators and portraits glorifying Hamas leader Yahya Sinwar. One gathering, not one record per sign.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 52.3745,
+      "lng": 9.7386,
+      "city": "Hanover",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A demonstration chanted “Khaibar, Khaibar, ya yahud” and “Labbaik ya Nasrallah,” invoking violence against Jews and praising Hezbollah’s leader.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "At a “Stop the slaughter in Rafah” gathering, signs compared Israel to the Holocaust and a speaker legitimized Hamas’s October 7 violence.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-05",
+    "location": {
+      "lat": 50.9778,
+      "lng": 11.0287,
+      "city": "Erfurt",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "At a Nakba Day gathering, a speaker denied that the Shoah met a narrowly stated definition of genocide while calling Israel a perpetrator.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Unknown people twice wrote “Jew” in large letters on the home of an Israeli family. The report describes two occurrences but lacks separate dates; keep as one repeated-target record unless dates are recovered.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-11",
+    "location": {
+      "lat": 49.0069,
+      "lng": 8.4037,
+      "city": "Karlsruhe",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A Jewish Afro-German family found antisemitic and racist slurs written on the wet windows of their car.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10-18",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "Around 40 masked people armed with axes, saws, crowbars and clubs stormed the Free University executive offices, dragged employees from rooms and left antisemitic graffiti and Hamas-style red triangles. Police investigated multiple offenses.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-11-07",
+    "location": {
+      "lat": 50.9271,
+      "lng": 11.5892,
+      "city": "Jena",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A university sit-in included claims that Jews rule and oppress the world, calls for an intifada and antisemitic songs.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-11-08",
+    "location": {
+      "lat": 50.9271,
+      "lng": 11.5892,
+      "city": "Jena",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "At the following day’s sit-in, speakers denied Israel’s right to exist, compared it with Nazi Germany and defended the BDS campaign.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-12",
+    "location": {
+      "lat": 47.9961,
+      "lng": 7.8494,
+      "city": "Freiburg im Breisgau",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A university restroom was marked with “Fuck your German guilt—Zionism is fascism” and “From the river to the sea.”.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-08",
+    "location": {
+      "lat": 50.8324,
+      "lng": 12.9253,
+      "city": "Chemnitz",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A lecture-hall table at Chemnitz University of Technology was marked with an antisemitic slogan about burning Jews for heat.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“Free Jews from Being” was written in a restroom at Berlin University of the Arts.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10-07",
+    "location": {
+      "lat": 50.8148,
+      "lng": 7.155,
+      "city": "Troisdorf",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A student gave a Nazi salute in a school hallway and shouted an antisemitic obscenity on the anniversary of the Hamas attack.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-03",
+    "location": {
+      "lat": 53.6127,
+      "lng": 12.4296,
+      "city": "Mecklenburg-Western Pomerania",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A student called a classmate a “stupid Jew” during a lesson. Town withheld; regional centroid permitted.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-02",
+    "location": {
+      "lat": 50.6521,
+      "lng": 9.1624,
+      "city": "Hesse",
+      "state": "Germany"
+    },
+    "type": "online",
+    "severity": "moderate",
+    "description": "A Jewish institution received an email threatening its recipients with death and invoking Rothschild and a Jewish world-control conspiracy.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-05",
+    "location": {
+      "lat": 50.9384,
+      "lng": 6.9599,
+      "city": "Cologne",
+      "state": "Germany"
+    },
+    "type": "online",
+    "severity": "moderate",
+    "description": "A Jewish man received an Instagram message blaming him for alleged Israeli crimes and saying the sender hoped he would burn in hell.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-02",
+    "location": {
+      "lat": 48.1371,
+      "lng": 11.5754,
+      "city": "Munich",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Three men entered a Jewish-owned shop after seeing a Jewish newspaper in the window, filmed themselves and aggressively threatened to slaughter people while customers and staff were present.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-06",
+    "location": {
+      "lat": 51.3406,
+      "lng": 12.3747,
+      "city": "Leipzig",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Stickers stating “one holocaust does not justify another” were placed beside a memorial to a destroyed synagogue.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-12",
+    "location": {
+      "lat": 50.7353,
+      "lng": 7.102,
+      "city": "Bonn",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A woman wearing a keffiyeh confronted a pro-Israel vigil and physically attacked a participant after disputing the vigil’s message. Confirm full passage/page when converting.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-06",
+    "location": {
+      "lat": 51.0493,
+      "lng": 13.7381,
+      "city": "Dresden",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A supervisor told a Jewish employee that threats against the synagogue were unsurprising “given what Israel is doing.”.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-07",
+    "location": {
+      "lat": 51.3406,
+      "lng": 12.3747,
+      "city": "Leipzig",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Landscaping workers noticed an Israeli flag at an apartment and made antisemitic remarks about its resident.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-01",
+    "location": {
+      "lat": 54.3233,
+      "lng": 10.1228,
+      "city": "Kiel",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "A sticker depicted a rat with a human face, “Judas” on its forehead and a money bag, hanging from a gallows.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 50.9482,
+      "lng": 10.7019,
+      "city": "near Gotha",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A regional-train passenger shouted “Heil Hitler” and called for Syrians and Jews to be sent to gas chambers.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-05",
+    "location": {
+      "lat": 50.7204,
+      "lng": 11.34,
+      "city": "Rudolstadt",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "An AfD municipal politician allegedly told a resident objecting to the party’s booth that her behavior would put her in Buchenwald; the incident was reported to police.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-06",
+    "location": {
+      "lat": 49.7925,
+      "lng": 9.9329,
+      "city": "Würzburg",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A woman entered an Asian delicatessen and directed racist and antisemitic abuse at staff, including calling Jews child murderers.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-03",
+    "location": {
+      "lat": 49.2344,
+      "lng": 6.9964,
+      "city": "Saarbrücken",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "During a confrontation at an International Women’s Day demonstration, youths tried to seize a woman’s Israeli flag and one made a sexually violent antisemitic remark.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-09",
+    "location": {
+      "lat": 51.3406,
+      "lng": 12.3747,
+      "city": "Leipzig",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Several men approached a woman recording a Hebrew voice message, subjected her to antisemitic sexual abuse and threatened rape.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 52.1316,
+      "lng": 11.6399,
+      "city": "Magdeburg",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A person in an apartment-building hallway shouted that all Jews and foreigners should be gassed.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-06",
+    "location": {
+      "lat": 51.1045,
+      "lng": 13.2017,
+      "city": "Saxony",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“Jews out” and “Free racism” were found at an outdoor swimming pool. Town withheld; Saxony centroid permitted.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-02",
+    "location": {
+      "lat": 53.0758,
+      "lng": 8.8072,
+      "city": "Bremen",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A passerby shouted an antisemitic obscenity at a gathering showing solidarity with Israel.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-02",
+    "location": {
+      "lat": 50.9384,
+      "lng": 6.9599,
+      "city": "Cologne",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "On a local train, a passenger said Muslims and Christians lived peacefully until Jews caused conflict.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-08",
+    "location": {
+      "lat": 52.0207,
+      "lng": 8.5329,
+      "city": "Bielefeld",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A speaker opened a demonstration with an Islamic prayer and made antisemitic statements during her speech.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-11",
+    "location": {
+      "lat": 50.6521,
+      "lng": 9.1624,
+      "city": "Hesse",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A man spat at a couple leaving a counter-rally to an antisemitic demonstration and shouted an antisemitic slur at them.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "Participants in an anti-Israel demonstration threw bottles and stones at two counter-demonstrations.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-03",
+    "location": {
+      "lat": 50.9384,
+      "lng": 6.9599,
+      "city": "Cologne",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "Counter-protesters were pelted with eggs and pebbles from an anti-Israel gathering.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-09",
+    "location": {
+      "lat": 54.3066,
+      "lng": 9.6631,
+      "city": "Rendsburg",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "After invoking a right-wing extremist politician, a bar patron tried to pull the kippah from a Jewish guest’s head.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-09",
+    "location": {
+      "lat": 53.8903,
+      "lng": 11.4646,
+      "city": "Wismar",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Right-wing counter-demonstrators threatened Christopher Street Day participants with gas chambers.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-07",
+    "location": {
+      "lat": 47.9961,
+      "lng": 7.8494,
+      "city": "Freiburg im Breisgau",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "A sticker combined an Antifa logo and Palestinian flag with “Fuck your German guilt. Zionism is fascism.”.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-08",
+    "location": {
+      "lat": 50.6868,
+      "lng": 10.914,
+      "city": "Ilmenau",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A speaker at a “Monday walk” invoked the antisemitic Morgenthau Plan conspiracy and compared it with government policy.",
+    "source_url": "https://report-antisemitism.de/documents/04-06-25_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2024.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-02-21",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "injury",
+    "severity": "high",
+    "description": "A man attacked a visitor at the Memorial to the Murdered Jews of Europe and cut his throat; emergency surgery saved him. The assailant said he had gone there seeking Jews and was later sentenced to 13 years.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-09",
+    "location": {
+      "lat": 50.9778,
+      "lng": 11.0287,
+      "city": "Erfurt",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A man attacked a tram passenger wearing a Star of David, tried to drag him off the tram, attacked him again after they disembarked and tore the necklace from his neck.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-06",
+    "location": {
+      "lat": 48.1371,
+      "lng": 11.5754,
+      "city": "Munich",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "Two strangers insulted a couple after seeing the man’s Star of David shirt, pursued them and shattered vehicle windows as the couple tried to leave, injuring them with glass.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-08",
+    "location": {
+      "lat": 50.2268,
+      "lng": 8.6182,
+      "city": "Bad Homburg, Hesse",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A man shouted “Free Palestine” at a visibly identifiable rabbi shopping with his children, knocked the rabbi’s phone away and shoved him.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-03",
+    "location": {
+      "lat": 51.3155,
+      "lng": 9.4924,
+      "city": "Kassel",
+      "state": "Germany"
+    },
+    "type": "injury",
+    "severity": "high",
+    "description": "A group called a person a “Zionist pig,” punched and repeatedly beat them while blaming them for genocide; the victim required hospital treatment.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-11-09",
+    "location": {
+      "lat": 53.5503,
+      "lng": 10.0007,
+      "city": "Hamburg",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "high",
+    "description": "A man extinguished and threw away a memorial candle, then struck and choked a woman while she cleaned a Stolperstein.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-07",
+    "location": {
+      "lat": 49.4539,
+      "lng": 11.0775,
+      "city": "Nuremberg",
+      "state": "Germany"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "An e-bike rider spat on a participant at a commemoration of the Nazi-era demolition of Nuremberg’s main synagogue.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-06-20",
+    "location": {
+      "lat": 51.5926,
+      "lng": 12.4638,
+      "city": "Löbnitz",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A Jewish person was threatened with “your house will burn soon” and “you should all be burned.”.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-03",
+    "location": {
+      "lat": 53.8903,
+      "lng": 11.4646,
+      "city": "Wismar",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A right-wing extremist rally participant told counter-protesters that he hoped they would be gassed and called them Jews.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-08",
+    "location": {
+      "lat": 53.5503,
+      "lng": 10.0007,
+      "city": "Hamburg",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "The “Here and Now—To the Victims of the Nazi Judicial System” memorial was defaced with “Israel is the enemy of humanity” and “Fuck Israel.”.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-01",
+    "location": {
+      "lat": 51.8308,
+      "lng": 12.2433,
+      "city": "Dessau-Roßlau",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "The Jewish cemetery was marked with “SS” and “SA,” apparently shortly before Holocaust Remembrance Day.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-01",
+    "location": {
+      "lat": 48.1371,
+      "lng": 11.5754,
+      "city": "Munich",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A swastika was scratched into the iced windshield of a Jewish person’s parked car; the owner’s Jewish identity was known in the neighborhood.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-09",
+    "location": {
+      "lat": 51.1045,
+      "lng": 13.2017,
+      "city": "Saxony",
+      "state": "Germany"
+    },
+    "type": "online",
+    "severity": "low",
+    "description": "Civil-society institutions working against antisemitism received an email asserting that Jews were “impure” and promoting antisemitic medical and psychological conspiracy claims. Regional centroid permitted.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-09",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin-to-Frankfurt ICE",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“KILL JEWS” was found in the restroom of an intercity train traveling from Berlin toward Frankfurt. Geocode departure city or route midpoint consistently.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-03",
+    "location": {
+      "lat": 51.4344,
+      "lng": 6.7623,
+      "city": "Duisburg",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "An antisemitic slur referring to “Jewish sewer rats” was written on a University of Duisburg-Essen campus wall.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-06",
+    "location": {
+      "lat": 51.3406,
+      "lng": 12.3747,
+      "city": "Leipzig",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“Fuck Jews!!” was written on a park bench.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-07",
+    "location": {
+      "lat": 50.9778,
+      "lng": 11.0287,
+      "city": "Erfurt",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "An apartment-building mailbox was marked “ZIO PIGS DIE.”.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-02",
+    "location": {
+      "lat": 50.9384,
+      "lng": 6.9599,
+      "city": "Cologne",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "“Jüdde Eck” (“Jew Corner”) was written on a street sign near a synagogue.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-08",
+    "location": {
+      "lat": 50.9384,
+      "lng": 6.9599,
+      "city": "Cologne",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A psychotherapist responded to a Jewish patient’s concern about antisemitism by invoking Israeli policy and the conspiracy myth that Jews control stock markets. The patient changed therapists.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-10",
+    "location": {
+      "lat": 48.1371,
+      "lng": 11.5754,
+      "city": "Munich",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A delivery driver pointed at visibly Jewish customers leaving a kosher shop, shouted “Jew” and “Free Palestine,” then assumed a fighting stance before shop employees intervened.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-11-25",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A demonstration included chants excluding “Zionists,” praised Hamas and its armed wing and called for death to the Israeli military. Treat as one gathering incident.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-01-27",
+    "location": {
+      "lat": 53.3649,
+      "lng": 13.0636,
+      "city": "Neustrelitz",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "At a Holocaust Remembrance Day rally, a speaker invoked a Rothschild/Mossad conspiracy and referred disparagingly to Auschwitz remembrance.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-08",
+    "location": {
+      "lat": 52.1316,
+      "lng": 11.6399,
+      "city": "Magdeburg",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "At a far-right anti-CSD demonstration, speakers promoted a Jewish-world-conspiracy narrative using coded references to “puppet masters” destroying society.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-12",
+    "location": {
+      "lat": 50.9778,
+      "lng": 11.0287,
+      "city": "Erfurt",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A person called a visibly Jewish man wearing a kippah a “fucking Jew.”.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-10",
+    "location": {
+      "lat": 47.9961,
+      "lng": 7.8494,
+      "city": "Freiburg im Breisgau",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "“Zionism is a death cult” was found as graffiti.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-07",
+    "location": {
+      "lat": 49.2344,
+      "lng": 6.9964,
+      "city": "Saarbrücken",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "During a university event, a guest speaker denied the documented scale of sexual violence during the October 7 attack.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-05",
+    "location": {
+      "lat": 50.9384,
+      "lng": 6.9599,
+      "city": "Cologne",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "At a university event, an audience member questioned the six-million Jewish death toll immediately after the Shoah was mentioned.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-08",
+    "location": {
+      "lat": 50.1433,
+      "lng": 8.5711,
+      "city": "Eschborn",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A junction box was marked “Foreigners out,” a football-club abbreviation and a Star of David, using Jewish labeling to demean a rival team.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2025-12",
+    "location": {
+      "lat": 50.8772,
+      "lng": 12.0796,
+      "city": "Gera",
+      "state": "Germany"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A far-right demonstration speaker promoted “remigration” through a “globalist agenda” conspiracy narrative that RIAS identifies with antisemitic Great Replacement ideology.",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf",
+    "source_name": "Bundesverband RIAS",
+    "verified": true
+  },
+  {
+    "date": "2024-08-28",
+    "location": {
+      "lat": 52.5174,
+      "lng": 13.3951,
+      "city": "Berlin",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Antisemitic graffiti was found on Berlin's Block of Women memorial, which commemorates a protest by non-Jewish women against the detention of their Jewish relatives.",
+    "source_url": "https://www.jta.org/2024/08/29/global/berlin-holocaust-memorial-vandalized-with-antisemitic-graffiti",
+    "source_name": "JTA",
+    "verified": true
+  },
+  {
+    "date": "2026-01-04",
+    "location": {
+      "lat": 53.1193,
+      "lng": 13.5006,
+      "city": "Templin",
+      "state": "Germany"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "A shed at the home of Brandenburg antisemitism commissioner Andreas Büttner was set on fire and a red triangle was painted at the property. Büttner and his family were not injured.",
+    "source_url": "https://www.jta.org/2026/01/05/global/german-antisemitism-czar-targeted-in-arson-attack-i-will-not-be-intimidated-by-this",
+    "source_name": "JTA",
+    "verified": true
   }
 ]

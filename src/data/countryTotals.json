@@ -6,5 +6,13 @@
     "period": "2023–2025 (CST calendar-year totals)",
     "source_name": "Community Security Trust",
     "source_url": "https://cst.org.uk/research/cst-publications/antisemitic-incidents-report-2025"
+  },
+  "Germany": {
+    "lat": 51.1657,
+    "lng": 10.4515,
+    "total": 22134,
+    "period": "2023–2025 (RIAS calendar-year totals)",
+    "source_name": "Bundesverband RIAS",
+    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf"
   }
 }
