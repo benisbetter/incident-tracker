@@ -56,6 +56,27 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
   const altitudeTimer = useRef()
   const drillAltitude = useRef(0)
 
+  // react-globe.gl wipes and rebuilds every marker whenever the
+  // `htmlElement` factory's identity changes (its dataMapper.clear() runs
+  // on that prop changing). If the click handlers depend on incidents /
+  // onClusterSelect / altitude directly, they get a new identity on almost
+  // every render — including the render caused by the click itself — which
+  // was destroying and recreating the whole marker layer mid-interaction.
+  // That's why clicking a pin needed a second click: the first click's own
+  // state update wiped the marker the click just landed on. Keeping the
+  // latest values in refs lets the click handlers (and htmlElement) stay
+  // permanently stable while still always reading current data.
+  const incidentsRef = useRef(incidents)
+  const onClusterSelectRef = useRef(onClusterSelect)
+  const onSelectIncidentRef = useRef(onSelectIncident)
+  const altitudeRef = useRef(altitude)
+  useEffect(() => {
+    incidentsRef.current = incidents
+    onClusterSelectRef.current = onClusterSelect
+    onSelectIncidentRef.current = onSelectIncident
+    altitudeRef.current = altitude
+  })
+
   // Any zoom-out at all from where the drill-in landed collapses the
   // country back to a single total pin — not just a big zoom-out.
   useEffect(() => {
@@ -143,70 +164,64 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
     altitudeTimer.current = setTimeout(() => setAltitude(alt), 120)
   }, [])
 
-  const handleClusterClick = useCallback(
-    (cluster) => {
-      onClusterSelect?.(cluster.items.map((p) => p.incident))
-      if (cluster.count === 1) {
-        onSelectIncident(cluster.items[0].incident)
-        return
-      }
-      const globe = globeRef.current
-      const nextAltitude = Math.max(MIN_ALTITUDE, altitude / 3.2)
-      globe.pointOfView({ lat: cluster.lat, lng: cluster.lng, altitude: nextAltitude }, 500)
-    },
-    [altitude, onSelectIncident, onClusterSelect]
-  )
+  // Stable identity (empty deps) — reads everything that changes often via
+  // refs instead of closing over it, so the DOM click listener bound at
+  // element-creation time never goes stale and never forces a rebuild.
+  const handleClusterClick = useCallback((cluster) => {
+    onClusterSelectRef.current?.(cluster.items.map((p) => p.incident))
+    if (cluster.count === 1) {
+      onSelectIncidentRef.current(cluster.items[0].incident)
+      return
+    }
+    const globe = globeRef.current
+    const nextAltitude = Math.max(MIN_ALTITUDE, altitudeRef.current / 3.2)
+    globe.pointOfView({ lat: cluster.lat, lng: cluster.lng, altitude: nextAltitude }, 500)
+  }, [])
 
-  const handleCountryClick = useCallback(
-    (marker) => {
-      const countryIncidents = incidents.filter((i) => i.location.state === marker.country)
-      onClusterSelect?.(countryIncidents, marker.info)
-      setFocusedCountry(marker.country)
-      drillAltitude.current = 0.15
-      // pointOfView's own fly-in animation doesn't reliably fire onZoom, so
-      // altitude (which drives clustering) would otherwise stay stale until
-      // the next manual scroll — set it directly instead of waiting on that.
-      clearTimeout(altitudeTimer.current)
-      setAltitude(0.15)
-      const globe = globeRef.current
-      globe.pointOfView({ lat: marker.lat, lng: marker.lng, altitude: 0.15 }, 600)
-    },
-    [incidents, onClusterSelect]
-  )
+  const handleCountryClick = useCallback((marker) => {
+    const countryIncidents = incidentsRef.current.filter((i) => i.location.state === marker.country)
+    onClusterSelectRef.current?.(countryIncidents, marker.info)
+    setFocusedCountry(marker.country)
+    drillAltitude.current = 0.15
+    // pointOfView's own fly-in animation doesn't reliably fire onZoom, so
+    // altitude (which drives clustering) would otherwise stay stale until
+    // the next manual scroll — set it directly instead of waiting on that.
+    clearTimeout(altitudeTimer.current)
+    setAltitude(0.15)
+    const globe = globeRef.current
+    globe.pointOfView({ lat: marker.lat, lng: marker.lng, altitude: 0.15 }, 600)
+  }, [])
 
-  const makeClusterEl = useCallback(
-    (d) => {
-      const el = document.createElement('div')
-      if (d.kind === 'country') {
-        el.className = 'globe-country-pin'
-        el.textContent = d.total >= 1000 ? `${(d.total / 1000).toFixed(1)}K` : d.total
-        el.title = `${d.country}: ~${d.total.toLocaleString()} reported incidents (click to see researched cases)`
-        el.addEventListener('click', (e) => {
-          e.stopPropagation()
-          handleCountryClick(d)
-        })
-        return el
-      }
-      if (d.count === 1) {
-        el.className = 'globe-point'
-        el.style.backgroundColor = d.color
-      } else {
-        el.className = 'globe-cluster'
-        const px = Math.min(38, 14 + Math.sqrt(d.count) * 2)
-        el.style.width = `${px}px`
-        el.style.height = `${px}px`
-        el.style.fontSize = px < 22 ? '10px' : '11px'
-        el.style.backgroundColor = d.color
-        el.textContent = d.count
-      }
+  const makeClusterEl = useCallback((d) => {
+    const el = document.createElement('div')
+    if (d.kind === 'country') {
+      el.className = 'globe-country-pin'
+      el.textContent = d.total >= 1000 ? `${(d.total / 1000).toFixed(1)}K` : d.total
+      el.title = `${d.country}: ~${d.total.toLocaleString()} reported incidents (click to see researched cases)`
       el.addEventListener('click', (e) => {
         e.stopPropagation()
-        handleClusterClick(d)
+        handleCountryClick(d)
       })
       return el
-    },
-    [handleClusterClick, handleCountryClick]
-  )
+    }
+    if (d.count === 1) {
+      el.className = 'globe-point'
+      el.style.backgroundColor = d.color
+    } else {
+      el.className = 'globe-cluster'
+      const px = Math.min(38, 14 + Math.sqrt(d.count) * 2)
+      el.style.width = `${px}px`
+      el.style.height = `${px}px`
+      el.style.fontSize = px < 22 ? '10px' : '11px'
+      el.style.backgroundColor = d.color
+      el.textContent = d.count
+    }
+    el.addEventListener('click', (e) => {
+      e.stopPropagation()
+      handleClusterClick(d)
+    })
+    return el
+  }, [handleClusterClick, handleCountryClick])
 
   return (
     <div className="globe-container" ref={containerRef}>
