@@ -54,11 +54,12 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
   const [altitude, setAltitude] = useState(1.8)
   const [focusedCountry, setFocusedCountry] = useState(null)
   const altitudeTimer = useRef()
+  const drillAltitude = useRef(0)
 
-  // Zooming back out drops the drill-in — the country collapses back to a
-  // single total pin instead of leaving its individual pins on screen.
+  // Any zoom-out at all from where the drill-in landed collapses the
+  // country back to a single total pin — not just a big zoom-out.
   useEffect(() => {
-    if (focusedCountry && altitude > 0.7) setFocusedCountry(null)
+    if (focusedCountry && altitude > drillAltitude.current + 0.01) setFocusedCountry(null)
   }, [altitude, focusedCountry])
 
   useEffect(() => {
@@ -145,8 +146,9 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
       const countryIncidents = incidents.filter((i) => i.location.state === marker.country)
       onClusterSelect?.(countryIncidents, marker.info)
       setFocusedCountry(marker.country)
+      drillAltitude.current = 0.15
       const globe = globeRef.current
-      globe.pointOfView({ lat: marker.lat, lng: marker.lng, altitude: 0.6 }, 600)
+      globe.pointOfView({ lat: marker.lat, lng: marker.lng, altitude: 0.15 }, 600)
     },
     [incidents, onClusterSelect]
   )
