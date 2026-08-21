@@ -11,8 +11,6 @@ export default function IncidentDrawer({ incidents, clusterIncidents, clusterMet
         <span className="drawer-toggle-count">{incidents.length.toLocaleString()}</span>
       </button>
 
-      {open && <div className="incident-drawer-backdrop" onClick={() => onOpenChange(false)} />}
-
       <div className={`incident-drawer ${open ? 'open' : ''}`}>
         <div className="incident-drawer-header">
           <span>{clusterIncidents ? 'Selected Incidents' : 'Incidents'}</span>

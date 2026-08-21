@@ -453,13 +453,6 @@ html, body {
   font-weight: 700;
 }
 
-.incident-drawer-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1150;
-}
-
 .incident-drawer {
   position: fixed;
   top: 0;
