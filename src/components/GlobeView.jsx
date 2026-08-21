@@ -119,11 +119,16 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
   // when crossing a level.
   const ZOOM_LEVELS = [25, 12, 6, 3, 1.5, 0.7, 0.35, MIN_ALTITUDE]
   const binDeg = useMemo(() => {
+    // A focused country always resolves to its finest-grain clustering
+    // immediately, regardless of what altitude has (or hasn't) committed
+    // yet — otherwise the split into individual pins depends on timing
+    // that isn't guaranteed to happen before the next render.
+    if (focusedCountry) return MIN_ALTITUDE
     for (const level of ZOOM_LEVELS) {
       if (altitude >= level) return level
     }
     return ZOOM_LEVELS[ZOOM_LEVELS.length - 1]
-  }, [altitude])
+  }, [altitude, focusedCountry])
 
   const clusters = useMemo(() => clusterPoints(points, binDeg), [points, binDeg])
 
