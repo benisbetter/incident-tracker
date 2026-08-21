@@ -58,7 +58,7 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
   // Zooming back out drops the drill-in — the country collapses back to a
   // single total pin instead of leaving its individual pins on screen.
   useEffect(() => {
-    if (focusedCountry && altitude > 1.2) setFocusedCountry(null)
+    if (focusedCountry && altitude > 0.7) setFocusedCountry(null)
   }, [altitude, focusedCountry])
 
   useEffect(() => {
