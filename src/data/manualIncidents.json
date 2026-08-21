@@ -1,0 +1,902 @@
+[
+  {
+    "date": "2025-06-30",
+    "location": {
+      "lat": 40.7128,
+      "lng": -74.006,
+      "city": "New York",
+      "state": "NY"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "Tarek Bazrouk, 20, was charged with federal hate crimes over a series of assaults on Jewish victims in New York City between 2024 and 2025, including an attack on a man wearing an Israel Defense Forces sweatshirt.",
+    "source_url": "https://www.justice.gov/opa/pr/new-york-man-charged-federal-hate-crimes-after-repeatedly-assaulting-jewish-victims",
+    "source_name": "U.S. Department of Justice",
+    "verified": true
+  },
+  {
+    "date": "2026-01-28",
+    "location": {
+      "lat": 40.6688,
+      "lng": -73.9426,
+      "city": "Brooklyn",
+      "state": "NY"
+    },
+    "type": "physical_attack",
+    "severity": "high",
+    "description": "A man repeatedly rammed his car into the entrance of Chabad-Lubavitch World Headquarters at 770 Eastern Parkway in Crown Heights during Yud Shvat. No injuries reported; suspect Dan Sohail, 36, was taken into custody. NYPD is investigating it as an antisemitic hate crime.",
+    "source_url": "https://www.cbsnews.com/newyork/news/car-into-chabad-headquarters-brooklyn/",
+    "source_name": "CBS News New York",
+    "verified": true
+  },
+  {
+    "date": "2026-03-12",
+    "location": {
+      "lat": 42.5652,
+      "lng": -83.3132,
+      "city": "West Bloomfield Township",
+      "state": "MI"
+    },
+    "type": "death",
+    "severity": "critical",
+    "description": "Ayman Mohamad Ghazali rammed a vehicle into Temple Israel and opened fire before dying by suicide; a security guard was struck by the vehicle and injured. The FBI determined the attack was a Hezbollah-inspired act of terrorism against the Jewish community, motivated by the deaths of the attacker’s relatives in an Israeli airstrike in Lebanon days earlier.",
+    "source_url": "https://abcnews.com/US/suspect-michigan-synagogue-attack-lost-family-israeli-strike/story?id=131031752",
+    "source_name": "ABC News",
+    "verified": true
+  },
+  {
+    "date": "2026-08-14",
+    "location": {
+      "lat": 40.7577,
+      "lng": -73.97,
+      "city": "New York",
+      "state": "NY"
+    },
+    "type": "physical_attack",
+    "severity": "high",
+    "description": "Larry Montes disrupted Shabbat services at Central Synagogue in Midtown East, striking a congregant and headbutting a security guard. He was arrested and charged with hate crimes and damage to religious property resulting in injury.",
+    "source_url": "https://www.cnn.com/2026/08/15/us/attack-synagogue-nyc-hnk",
+    "source_name": "CNN",
+    "verified": true
+  },
+  {
+    "date": "2023-10-07",
+    "location": {
+      "lat": 51.8098,
+      "lng": -0.2377,
+      "city": "Hertfordshire",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A vehicle displaying a Palestinian flag drove past a Hertfordshire synagogue while an occupant shook a fist toward congregants celebrating Simchat Torah.",
+    "source_url": "https://cst.org.uk/data/file/9/f/Antisemitic_Incidents_Report_2023.1707834969.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2023-10-09",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Free Palestine graffiti was sprayed on a bridge in Golders Green, an area with a large Jewish community. CST classified it among the first antisemitic incidents following October 7.",
+    "source_url": "https://cst.org.uk/data/file/9/f/Antisemitic_Incidents_Report_2023.1707834969.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2023-11-02",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Staff discovered the word Gaza spray-painted on a sign outside the Wiener Holocaust Library. Police recorded the vandalism as a hate crime.",
+    "source_url": "https://www.jta.org/2023/11/03/global/london-holocaust-library-defaced-in-latest-incident-of-pro-palestinian-graffiti-on-jewish-site",
+    "source_name": "JTA",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 51.8098,
+      "lng": -0.2377,
+      "city": "Hertfordshire",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A threatening letter containing anti-Zionist and Islamist-extremist rhetoric was sent to the headteacher of a Jewish school.",
+    "source_url": "https://cst.org.uk/data/file/9/f/Antisemitic_Incidents_Report_2023.1707834969.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A Jewish customer in a barbershop overheard two customers endorse Hitler's persecution of Jews and express regret that Jews had survived.",
+    "source_url": "https://cst.org.uk/data/file/9/f/Antisemitic_Incidents_Report_2023.1707834969.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2023-12",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A poster depicting a baby kidnapped by Hamas was defaced with two swastikas.",
+    "source_url": "https://cst.org.uk/data/file/9/f/Antisemitic_Incidents_Report_2023.1707834969.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2023-12",
+    "location": {
+      "lat": 53.4424618,
+      "lng": -2.2324547,
+      "city": "Manchester",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Leaflets promoting halal cat food and invoking an antisemitic trope about Jewish greed were distributed to homes across Greater Manchester.",
+    "source_url": "https://cst.org.uk/data/file/9/f/Antisemitic_Incidents_Report_2023.1707834969.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2024-01-04",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A Jewish schoolboy was assaulted outside his school and forced to say Free Palestine. Police investigated the incident as a hate crime.",
+    "source_url": "https://www.jpost.com/diaspora/antisemitism/article-781006",
+    "source_name": "The Jerusalem Post",
+    "verified": true
+  },
+  {
+    "date": "2024-01-29",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A man brandished a knife and fought with people at a kosher supermarket after demanding to know whether they supported Israel or Palestine. Police arrested him on suspicion of racially aggravated affray.",
+    "source_url": "https://www.jta.org/2024/01/29/global/man-arrested-after-brandishing-knife-at-kosher-supermarket-in-golders-green-london",
+    "source_name": "JTA",
+    "verified": true
+  },
+  {
+    "date": "2024-02-08",
+    "location": {
+      "lat": 53.7974185,
+      "lng": -1.5437941,
+      "city": "Leeds",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Antisemitic graffiti was sprayed on Hillel House, the Jewish student center serving the University of Leeds. Police investigated the vandalism.",
+    "source_url": "https://www.thejc.com/news/uk/police-investigate-graffiti-on-leeds-hillel-house-pl776htn",
+    "source_name": "The Jewish Chronicle",
+    "verified": true
+  },
+  {
+    "date": "2024-05-04",
+    "location": {
+      "lat": 50.6086976,
+      "lng": -1.9571971,
+      "city": "Swanage",
+      "state": "United Kingdom"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A man and woman were assaulted on Swanage High Street by a man who allegedly made antisemitic comments. Neither victim sustained serious injuries, and police arrested a suspect.",
+    "source_url": "https://news.dorset.police.uk/news-article/ecee4d97-6713-ef11-9d64-6045bdd24049",
+    "source_name": "Dorset Police",
+    "verified": true
+  },
+  {
+    "date": "2024-05",
+    "location": {
+      "lat": 57.4778,
+      "lng": -4.2247,
+      "city": "Northern Scotland",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A coordinated series of Goyim Defence League leaflets alleging that feminism was Jewish was distributed at multiple locations in northern Scotland.",
+    "source_url": "https://cst.org.uk/data/file/6/1/Antisemitic%20Incidents%20Report%202024.1738928091.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2024-08",
+    "location": {
+      "lat": 53.4424618,
+      "lng": -2.2324547,
+      "city": "Manchester",
+      "state": "United Kingdom"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A man kicked a visibly Jewish pedestrian from behind, blamed him for killing Palestinians and threatened to kill him if he approached.",
+    "source_url": "https://cst.org.uk/data/file/6/1/Antisemitic%20Incidents%20Report%202024.1738928091.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2024-08",
+    "location": {
+      "lat": 50.7488,
+      "lng": -2.3445,
+      "city": "Dorset",
+      "state": "United Kingdom"
+    },
+    "type": "online",
+    "severity": "moderate",
+    "description": "A Dorset synagogue received an email threatening that the sender would arrive the next morning and shoot Jewish people one by one.",
+    "source_url": "https://cst.org.uk/data/file/6/1/Antisemitic%20Incidents%20Report%202024.1738928091.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2024-08-26",
+    "location": {
+      "lat": 52.0735984,
+      "lng": -4.1548796,
+      "city": "Llanybydder",
+      "state": "United Kingdom"
+    },
+    "type": "injury",
+    "severity": "high",
+    "description": "Three masked men kidnapped a Jewish music producer, assaulted him and handcuffed him to a radiator. The victim sustained extensive facial injuries, and three men were later sentenced.",
+    "source_url": "https://www.cps.gov.uk/cymruwales/news/three-men-sentenced-kidnapping-music-producer",
+    "source_name": "Crown Prosecution Service",
+    "verified": true
+  },
+  {
+    "date": "2024-10-05",
+    "location": {
+      "lat": 50.8286917,
+      "lng": -0.1745744,
+      "city": "Hove",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A memorial to Jewish victims of terrorism was defaced in Hove. Sussex Police investigated the vandalism as a hate crime.",
+    "source_url": "https://www.the-independent.com/news/uk/sussex-police-jewish-police-hove-hamas-b2624797.html",
+    "source_name": "The Independent",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 52.6309,
+      "lng": 1.2974,
+      "city": "Norwich",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Graffiti in Norwich combined a Star of David with a swastika, directly comparing Jews with Nazis.",
+    "source_url": "https://cst.org.uk/data/file/6/1/Antisemitic%20Incidents%20Report%202024.1738928091.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2024-10",
+    "location": {
+      "lat": 51.8098,
+      "lng": -0.2377,
+      "city": "Hertfordshire",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A hostage poster on Jewish-owned property was defaced with graffiti.",
+    "source_url": "https://cst.org.uk/data/file/6/1/Antisemitic%20Incidents%20Report%202024.1738928091.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2024-11",
+    "location": {
+      "lat": 51.7356,
+      "lng": 0.4685,
+      "city": "Essex",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A Jewish pupil was repeatedly told by a classmate that he should be gassed and that conditions should return to the 1940s; the classmate also made Nazi salutes.",
+    "source_url": "https://cst.org.uk/data/file/6/1/Antisemitic%20Incidents%20Report%202024.1738928091.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2024-12-14",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A man allegedly made a Nazi salute toward participants in a Stop the Hate counter-protest in Trafalgar Square. Police issued an appeal to identify him.",
+    "source_url": "https://news.met.police.uk/news/met-issues-images-of-man-suspected-of-protest-offence-491868",
+    "source_name": "Metropolitan Police",
+    "verified": true
+  },
+  {
+    "date": "2024-12",
+    "location": {
+      "lat": 53.4106,
+      "lng": -2.1575,
+      "city": "Stockport",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A Free Palestine sticker was placed on a public chanukiah.",
+    "source_url": "https://cst.org.uk/data/file/6/1/Antisemitic%20Incidents%20Report%202024.1738928091.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2025-05",
+    "location": {
+      "lat": 53.4424618,
+      "lng": -2.2324547,
+      "city": "Manchester",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A perpetrator wrote antisemitic graffiti stating that Jews were Nazis and scum on several north Manchester buildings, including a kosher restaurant and a synagogue.",
+    "source_url": "https://cst.org.uk/research/cst-publications/antisemitic-incidents-report-2025",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2025-09-03",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A synagogue entrance in Golders Green was smeared with excrement in the first publicly dated incident of a series targeting Jewish premises. Police investigated the attacks as antisemitic criminal damage.",
+    "source_url": "https://www.standard.co.uk/news/london/police-manhunt-faeces-synagogues-school-golders-green-attacks-b1246575.html",
+    "source_name": "The Standard",
+    "verified": true
+  },
+  {
+    "date": "2025-09",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "An antisemitic caricature was drawn on a building in London.",
+    "source_url": "https://cst.org.uk/research/cst-publications/antisemitic-incidents-report-2025",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2025-10-02",
+    "location": {
+      "lat": 53.4424618,
+      "lng": -2.2324547,
+      "city": "Manchester",
+      "state": "United Kingdom"
+    },
+    "type": "death",
+    "severity": "critical",
+    "description": "An attacker drove a car at people outside Heaton Park Hebrew Congregation and attacked worshippers with a knife during Yom Kippur. Two Jewish men died and three others sustained serious injuries.",
+    "source_url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2025/october/counter-terrorism-police-appeal-for-outstanding-witnesses-after-manchester-synagogue-attack/",
+    "source_name": "Greater Manchester Police",
+    "verified": true
+  },
+  {
+    "date": "2025-10",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "online",
+    "severity": "moderate",
+    "description": "A Jewish news outlet received an email invoking ritual-abuse allegations and threatening to ensure that the outlet and its ancestors suffered.",
+    "source_url": "https://cst.org.uk/research/cst-publications/antisemitic-incidents-report-2025",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2025-10",
+    "location": {
+      "lat": 53.4424618,
+      "lng": -2.2324547,
+      "city": "Manchester",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A man at a gym claimed that events were a Jewish fabrication and that Jews owned everything, then repeated the allegation to the manager.",
+    "source_url": "https://cst.org.uk/research/cst-publications/antisemitic-incidents-report-2025",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2025-10",
+    "location": {
+      "lat": 51.0153,
+      "lng": -3.1068,
+      "city": "Somerset",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Participants on a walking tour were handed a poetry book containing several explicitly antisemitic works.",
+    "source_url": "https://cst.org.uk/research/cst-publications/antisemitic-incidents-report-2025",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2025-10-20",
+    "location": {
+      "lat": 53.4424618,
+      "lng": -2.2324547,
+      "city": "Manchester",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A man allegedly acted aggressively outside a synagogue in Crumpsall. Police charged him with a racially aggravated public-order offense and criminal damage.",
+    "source_url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2025/october/man-charged-with-several-offences-following-a-disturbance-in-crumpsall/",
+    "source_name": "Greater Manchester Police",
+    "verified": true
+  },
+  {
+    "date": "2025-12-13",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "Tony Steer asked a man outside a Finchley cricket club whether he was Jewish and then punched him in the mouth. Steer was convicted of racially aggravated assault.",
+    "source_url": "https://www.cps.gov.uk/london-north/news/man-convicted-after-punching-stranger-antisemitic-attack",
+    "source_name": "Crown Prosecution Service",
+    "verified": true
+  },
+  {
+    "date": "2026-01",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Graffiti comparing the Gaza war to the Holocaust and displaying a false casualty figure was written on a London wall.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-02",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "The words HATE JEWS were written beneath a bridge in London.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-02",
+    "location": {
+      "lat": 53.4424618,
+      "lng": -2.2324547,
+      "city": "Manchester",
+      "state": "United Kingdom"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "Seven masked teenage boys charged bicycles toward a visibly Jewish couple, tried to seize their religious clothing and threw stones and branches at them.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-03",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "At a workplace social event, a colleague praised Hitler, minimized the Holocaust and blamed Jews for terrorist attacks while speaking to a Jewish victim.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-03",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "An antisemitic conspiracy theory was written on a public poster in London.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-03-16",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Tavius Jean-Charles shouted a death threat against Jews at a driver in Stamford Hill and smashed the passenger window of the moving car. He later pleaded guilty.",
+    "source_url": "https://news.met.police.uk/news/man-jailed-for-antisemitic-hate-crimes-in-hackney-509597",
+    "source_name": "Metropolitan Police",
+    "verified": true
+  },
+  {
+    "date": "2026-03-23",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "Attackers poured accelerant over four ambulances operated by Hatzola and set them on fire in a synagogue car park. The ambulances were destroyed and nearby residents were displaced.",
+    "source_url": "https://news.met.police.uk/news/statement-on-antisemitic-arson-attack-in-golders-green-507446",
+    "source_name": "Metropolitan Police",
+    "verified": true
+  },
+  {
+    "date": "2026-03-24",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Tavius Jean-Charles was heard near a synagogue saying Jewish schools should be blown up. Police arrested him, and he later pleaded guilty.",
+    "source_url": "https://news.met.police.uk/news/man-jailed-for-antisemitic-hate-crimes-in-hackney-509597",
+    "source_name": "Metropolitan Police",
+    "verified": true
+  },
+  {
+    "date": "2026-04",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A picture of Hitler was attached to a public post in a Jewish area of London.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-04",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Boycott Israeli Goods stickers were placed on a Hatzola community ambulance in Stamford Hill.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-04",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "An antisemitic slur was written on a slide in a children's play area in London.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-04",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A man on the London Underground noticed a father's kippah, shouted at his visibly Jewish family and threatened to kill the father, claiming he had killed Jews before.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-04",
+    "location": {
+      "lat": 54,
+      "lng": -2,
+      "city": "United Kingdom",
+      "state": "United Kingdom"
+    },
+    "type": "online",
+    "severity": "low",
+    "description": "An antisemitic joke based on a Jewish stereotype was posted on Facebook and reported to CST by a UK victim or witness.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-04-15",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "Two masked suspects placed bottles containing suspected petrol beside windows at a Finchley synagogue and threw a brick at the building. Police treated the attempted arson as an antisemitic hate crime.",
+    "source_url": "https://news.met.police.uk/news/further-arrests-after-attempted-finchley-synagogue-arson-attack-508304",
+    "source_name": "Metropolitan Police",
+    "verified": true
+  },
+  {
+    "date": "2026-04-18",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "An arson attack caused minor damage at Kenton United Synagogue. No one was injured, and a teenager later pleaded guilty.",
+    "source_url": "https://news.met.police.uk/news/boy-charged-after-kenton-synagogue-arson-attack-508459",
+    "source_name": "Metropolitan Police",
+    "verified": true
+  },
+  {
+    "date": "2026-04-29",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "injury",
+    "severity": "high",
+    "description": "Two Jewish men were stabbed in Golders Green, including one outside a synagogue. Police treated the attack as terrorism and arrested the suspect.",
+    "source_url": "https://apnews.com/article/3fba4e0c5d8467e3e497a9a05dfe976c",
+    "source_name": "Associated Press",
+    "verified": true
+  },
+  {
+    "date": "2026-05",
+    "location": {
+      "lat": 54,
+      "lng": -2,
+      "city": "United Kingdom",
+      "state": "United Kingdom"
+    },
+    "type": "online",
+    "severity": "moderate",
+    "description": "Several UK Jewish organisations received a coordinated mass email celebrating the Golders Green knife attack and containing extensive antisemitic language.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-05-02",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Rocks were thrown at a Jewish community ambulance while it transported a patient in Edgware. Police arrested a man on suspicion of aggravated criminal damage.",
+    "source_url": "https://news.met.police.uk/news/met-announces-new-dedicated-community-protection-team-as-further-antisemitic-hate-crime-arrests-made-this-weekend-509023",
+    "source_name": "Metropolitan Police",
+    "verified": true
+  },
+  {
+    "date": "2026-05-07",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Two men approached a Jewish man in Clapton Common, shouted antisemitic abuse and filmed the encounter for social media. Both pleaded guilty to aggravated harassment.",
+    "source_url": "https://www.cps.gov.uk/london-north/news/two-men-sentenced-antisemitic-harassment-stamford-hill",
+    "source_name": "Crown Prosecution Service",
+    "verified": true
+  },
+  {
+    "date": "2026-05-07",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A man allegedly directed antisemitic abuse at Orthodox Jewish passengers on a bus traveling through Stamford Hill. Prosecutors charged him with aggravated harassment and threatening behavior.",
+    "source_url": "https://www.cps.gov.uk/london-north/news/man-charged-after-antisemitic-hate-crime-incident-bus-north-london",
+    "source_name": "Crown Prosecution Service",
+    "verified": true
+  },
+  {
+    "date": "2026-05-09",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "Dylan Ossei walked through Enfield shouting threats at the Jewish community, assaulted a man and repeatedly asked whether he was Jewish. He pleaded guilty.",
+    "source_url": "https://www.cps.gov.uk/london-north/news/man-convicted-after-making-antisemitic-threats-north-london",
+    "source_name": "Crown Prosecution Service",
+    "verified": true
+  },
+  {
+    "date": "2026-05-10",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "Syeda Khatun shouted antisemitic abuse at a mother and children outside a Jewish school, then struck a father and pulled his beard. She was convicted of aggravated assault and harassment.",
+    "source_url": "https://www.cps.gov.uk/london-north/news/woman-convicted-antisemitic-attack-outside-jewish-secondary-school-north-london",
+    "source_name": "Crown Prosecution Service",
+    "verified": true
+  },
+  {
+    "date": "2026-06",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "An antisemitic obscenity and a swastika were scrawled on a London bus stop.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-06",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A swastika and an obscenity were sprayed on the fence of a Jewish residence in London.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-06",
+    "location": {
+      "lat": 55.8612,
+      "lng": -4.2502,
+      "city": "Glasgow",
+      "state": "United Kingdom"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "An antisemitic conspiracy slogan alleging that all roads led to Jews was written on an anti-immigration banner in Glasgow.",
+    "source_url": "https://cst.org.uk/data/file/5/9/Incidents%20Report%20Jan-Jun%202026.1785405460.pdf",
+    "source_name": "Community Security Trust",
+    "verified": true
+  },
+  {
+    "date": "2026-07-04",
+    "location": {
+      "lat": 51.5074456,
+      "lng": -0.1277653,
+      "city": "London",
+      "state": "United Kingdom"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A Jewish man and his three-year-old son were assaulted in Markfield Park while the attacker made threats toward them and the wider Jewish community. Neither required medical treatment.",
+    "source_url": "https://news.met.police.uk/news/detectives-appeal-for-information-after-father-and-son-assaulted-in-tottenham-511487",
+    "source_name": "Metropolitan Police",
+    "verified": true
+  }
+]

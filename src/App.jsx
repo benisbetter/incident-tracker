@@ -6,6 +6,7 @@ import FilterBar from './components/FilterBar'
 import IncidentDrawer from './components/IncidentDrawer'
 import IncidentDetail from './components/IncidentDetail'
 import DonateSection from './components/DonateSection'
+import CoverageNote from './components/CoverageNote'
 import { TYPE_COLORS } from './typeColors'
 import './App.css'
 
@@ -94,6 +95,8 @@ export default function App() {
           </div>
         )}
       </div>
+
+      <CoverageNote incidents={incidents} />
 
       <DonateSection />
 

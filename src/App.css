@@ -340,6 +340,34 @@ html, body {
   margin: 0;
 }
 
+.coverage-note {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 12px 16px;
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.coverage-note ul {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+}
+
+.coverage-note strong {
+  color: var(--text);
+}
+
+.coverage-note a {
+  color: var(--accent);
+}
+
 .donate-section {
   border-top: 1px solid var(--border);
   padding: 24px 0 40px;

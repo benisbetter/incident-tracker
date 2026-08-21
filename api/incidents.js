@@ -3,58 +3,15 @@
 // directly because their endpoint sends no CORS header. Runs fresh on every
 // cache miss (see Cache-Control below), no cron, no manual steps.
 
+import MANUAL_INCIDENTS from '../src/data/manualIncidents.json' with { type: 'json' }
+
 const CUTOFF = '2023-10-07'
 const PAGE_RANGE = 250 // generous ceiling; pages past ADL's real count just 404/empty and are skipped
 
-// Incidents ADL doesn't carry (post-dated their feed, or found via separate
-// news research). Same records baked into src/data/incidents.json — kept
-// here too so the live feed doesn't lose them.
-const MANUAL_INCIDENTS = [
-  {
-    date: '2026-01-28',
-    location: { lat: 40.6688, lng: -73.9426, city: 'Brooklyn', state: 'NY' },
-    type: 'physical_attack',
-    severity: 'high',
-    description:
-      "A man repeatedly rammed his car into the entrance of Chabad-Lubavitch World Headquarters at 770 Eastern Parkway in Crown Heights during Yud Shvat. No injuries reported; suspect Dan Sohail, 36, was taken into custody. NYPD is investigating it as an antisemitic hate crime.",
-    source_url: 'https://www.cbsnews.com/newyork/news/car-into-chabad-headquarters-brooklyn/',
-    source_name: 'CBS News New York',
-    verified: true,
-  },
-  {
-    date: '2026-03-12',
-    location: { lat: 42.5652, lng: -83.3132, city: 'West Bloomfield Township', state: 'MI' },
-    type: 'death',
-    severity: 'critical',
-    description:
-      "Ayman Mohamad Ghazali rammed a vehicle into Temple Israel and opened fire before dying by suicide; a security guard was struck by the vehicle and injured. The FBI determined the attack was a Hezbollah-inspired act of terrorism against the Jewish community, motivated by the deaths of the attacker's relatives in an Israeli airstrike in Lebanon days earlier.",
-    source_url: 'https://abcnews.com/US/suspect-michigan-synagogue-attack-lost-family-israeli-strike/story?id=131031752',
-    source_name: 'ABC News',
-    verified: true,
-  },
-  {
-    date: '2026-08-14',
-    location: { lat: 40.7577, lng: -73.9700, city: 'New York', state: 'NY' },
-    type: 'physical_attack',
-    severity: 'high',
-    description:
-      'Larry Montes disrupted Shabbat services at Central Synagogue in Midtown East, striking a congregant and headbutting a security guard. He was arrested and charged with hate crimes and damage to religious property resulting in injury.',
-    source_url: 'https://www.cnn.com/2026/08/15/us/attack-synagogue-nyc-hnk',
-    source_name: 'CNN',
-    verified: true,
-  },
-  {
-    date: '2025-06-30',
-    location: { lat: 40.7128, lng: -74.0060, city: 'New York', state: 'NY' },
-    type: 'physical_attack',
-    severity: 'moderate',
-    description:
-      'Tarek Bazrouk, 20, was charged with federal hate crimes over a series of assaults on Jewish victims in New York City between 2024 and 2025, including an attack on a man wearing an Israel Defense Forces sweatshirt.',
-    source_url: 'https://www.justice.gov/opa/pr/new-york-man-charged-federal-hate-crimes-after-repeatedly-assaulting-jewish-victims',
-    source_name: 'U.S. Department of Justice',
-    verified: true,
-  },
-]
+// MANUAL_INCIDENTS = hand-researched incidents ADL doesn't carry (US cases
+// outside their feed, plus every non-US country). Single shared file — also
+// used to rebuild src/data/incidents.json's bundled snapshot, so the two
+// never drift apart.
 
 const STATE_ABBR = {
   Alabama: 'AL', Alaska: 'AK', Arizona: 'AZ', Arkansas: 'AR', California: 'CA', Colorado: 'CO',
