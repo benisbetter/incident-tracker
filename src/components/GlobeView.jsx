@@ -55,6 +55,7 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
   const [focusedCountry, setFocusedCountry] = useState(null)
   const altitudeTimer = useRef()
   const drillAltitude = useRef(0)
+  const drillLockUntil = useRef(0)
 
   // react-globe.gl wipes and rebuilds every marker whenever the
   // `htmlElement` factory's identity changes (its dataMapper.clear() runs
@@ -78,8 +79,13 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
   })
 
   // Any zoom-out at all from where the drill-in landed collapses the
-  // country back to a single total pin — not just a big zoom-out.
+  // country back to a single total pin — not just a big zoom-out. Guarded
+  // by drillLockUntil: the fly-in animation itself passes through every
+  // altitude between the old wide view and the drill-in target, so without
+  // this lock a mid-flight tick above the threshold would collapse the
+  // focus before the camera even finished arriving.
   useEffect(() => {
+    if (Date.now() < drillLockUntil.current) return
     if (focusedCountry && altitude > drillAltitude.current + 0.01) setFocusedCountry(null)
   }, [altitude, focusedCountry])
 
@@ -183,6 +189,7 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
     onClusterSelectRef.current?.(countryIncidents, marker.info)
     setFocusedCountry(marker.country)
     drillAltitude.current = 0.15
+    drillLockUntil.current = Date.now() + 700
     // pointOfView's own fly-in animation doesn't reliably fire onZoom, so
     // altitude (which drives clustering) would otherwise stay stale until
     // the next manual scroll — set it directly instead of waiting on that.
@@ -225,23 +232,6 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
 
   return (
     <div className="globe-container" ref={containerRef}>
-      <div
-        style={{
-          position: 'absolute',
-          top: 8,
-          left: 8,
-          zIndex: 999,
-          background: '#000',
-          color: '#0f0',
-          fontSize: 11,
-          padding: '4px 8px',
-          borderRadius: 4,
-          fontFamily: 'monospace',
-          pointerEvents: 'none',
-        }}
-      >
-        DEBUG focused={String(focusedCountry)} altitude={altitude.toFixed(3)} points={points.length} clusters={clusters.length} countryMarkers={countryMarkers.length} markers={markers.length}
-      </div>
       <Globe
         ref={globeRef}
         width={size.width}
