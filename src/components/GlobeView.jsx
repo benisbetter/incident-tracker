@@ -158,6 +158,11 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
       onClusterSelect?.(countryIncidents, marker.info)
       setFocusedCountry(marker.country)
       drillAltitude.current = 0.15
+      // pointOfView's own fly-in animation doesn't reliably fire onZoom, so
+      // altitude (which drives clustering) would otherwise stay stale until
+      // the next manual scroll — set it directly instead of waiting on that.
+      clearTimeout(altitudeTimer.current)
+      setAltitude(0.15)
       const globe = globeRef.current
       globe.pointOfView({ lat: marker.lat, lng: marker.lng, altitude: 0.15 }, 600)
     },
