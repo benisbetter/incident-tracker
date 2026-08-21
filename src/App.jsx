@@ -47,7 +47,7 @@ export default function App() {
   }, [incidents, filters])
 
   return (
-    <div className="app">
+    <div className={`app ${drawerOpen ? 'app-drawer-open' : ''}`}>
       <header className="app-header">
         <div className="app-title">
           <span className="app-title-mark">✡</span>
