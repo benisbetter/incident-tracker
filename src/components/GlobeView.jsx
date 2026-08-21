@@ -73,12 +73,23 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
   }, [])
 
   useEffect(() => {
+    const el = containerRef.current
+    if (!el) return
+    // Scrolling to max zoom-out otherwise lets the leftover wheel delta
+    // fall through to the page and scroll it — always eat the event here.
+    const stopScroll = (e) => e.preventDefault()
+    el.addEventListener('wheel', stopScroll, { passive: false })
+    return () => el.removeEventListener('wheel', stopScroll)
+  }, [])
+
+  useEffect(() => {
     const globe = globeRef.current
     if (!globe) return
     globe.pointOfView({ lat: 39.8283, lng: -98.5795, altitude: 1.8 }, 0)
     const controls = globe.controls()
     controls.enableDamping = true
     controls.minDistance = 100 * (1 + MIN_ALTITUDE)
+    controls.maxDistance = 100 * 4.5
   }, [])
 
   const points = useMemo(
