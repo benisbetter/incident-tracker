@@ -225,6 +225,23 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
 
   return (
     <div className="globe-container" ref={containerRef}>
+      <div
+        style={{
+          position: 'absolute',
+          top: 8,
+          left: 8,
+          zIndex: 999,
+          background: '#000',
+          color: '#0f0',
+          fontSize: 11,
+          padding: '4px 8px',
+          borderRadius: 4,
+          fontFamily: 'monospace',
+          pointerEvents: 'none',
+        }}
+      >
+        DEBUG focused={String(focusedCountry)} altitude={altitude.toFixed(3)} points={points.length} clusters={clusters.length} countryMarkers={countryMarkers.length} markers={markers.length}
+      </div>
       <Globe
         ref={globeRef}
         width={size.width}
