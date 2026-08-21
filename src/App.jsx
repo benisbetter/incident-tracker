@@ -23,6 +23,7 @@ export default function App() {
   const [mainTab, setMainTab] = useState('globe')
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [clusterIncidents, setClusterIncidents] = useState(null)
+  const [clusterMeta, setClusterMeta] = useState(null)
 
   useEffect(() => {
     fetch('/api/incidents')
@@ -66,6 +67,7 @@ export default function App() {
         onChange={(next) => {
           setFilters(next)
           setClusterIncidents(null)
+          setClusterMeta(null)
         }}
       />
 
@@ -83,8 +85,9 @@ export default function App() {
           <GlobeView
             incidents={filteredIncidents}
             onSelectIncident={setSelected}
-            onClusterSelect={(items) => {
+            onClusterSelect={(items, meta) => {
               setClusterIncidents(items)
+              setClusterMeta(meta ?? null)
               setDrawerOpen(true)
             }}
           />
@@ -103,10 +106,14 @@ export default function App() {
       <IncidentDrawer
         incidents={filteredIncidents}
         clusterIncidents={clusterIncidents}
+        clusterMeta={clusterMeta}
         onSelectIncident={setSelected}
         open={drawerOpen}
         onOpenChange={setDrawerOpen}
-        onClearCluster={() => setClusterIncidents(null)}
+        onClearCluster={() => {
+          setClusterIncidents(null)
+          setClusterMeta(null)
+        }}
       />
       <IncidentDetail incident={selected} onClose={() => setSelected(null)} />
     </div>

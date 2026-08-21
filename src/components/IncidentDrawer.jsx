@@ -1,6 +1,6 @@
 import IncidentRows from './IncidentRows'
 
-export default function IncidentDrawer({ incidents, clusterIncidents, onSelectIncident, open, onOpenChange, onClearCluster }) {
+export default function IncidentDrawer({ incidents, clusterIncidents, clusterMeta, onSelectIncident, open, onOpenChange, onClearCluster }) {
   const shown = clusterIncidents ?? incidents
 
   return (
@@ -19,6 +19,15 @@ export default function IncidentDrawer({ incidents, clusterIncidents, onSelectIn
           <span className="incident-panel-count">{shown.length.toLocaleString()}</span>
           <button className="incident-drawer-close" onClick={() => onOpenChange(false)}>×</button>
         </div>
+        {clusterMeta && (
+          <p className="drawer-total-note">
+            {shown.length.toLocaleString()} individually mapped, of{' '}
+            <a href={clusterMeta.source_url} target="_blank" rel="noreferrer">
+              ~{clusterMeta.total.toLocaleString()} reported by {clusterMeta.source_name}
+            </a>{' '}
+            ({clusterMeta.period})
+          </p>
+        )}
         {clusterIncidents && (
           <button className="drawer-clear-cluster" onClick={onClearCluster}>
             ← Show all {incidents.length.toLocaleString()} incidents

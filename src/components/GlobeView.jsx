@@ -5,16 +5,17 @@ import countryTotals from '../data/countryTotals.json'
 
 const MIN_ALTITUDE = 0.03
 
-// Background glow per country, sized by its real officially-reported total
-// (not just what we've individually sourced) — so a country with only a
-// handful of researched pins still visually reads at its true scale. Purely
-// decorative: no pointer-events, sits behind the clickable cluster markers.
-const GLOW_MARKERS = Object.entries(countryTotals).map(([country, info]) => ({
-  kind: 'glow',
+// One clickable pin per country, labeled with its real officially-reported
+// total (not just what we've individually sourced). Clicking it zooms in on
+// that country and opens the drawer filtered to its researched incidents,
+// with a note on how many of the official total those represent.
+const COUNTRY_MARKERS = Object.entries(countryTotals).map(([country, info]) => ({
+  kind: 'country',
   lat: info.lat,
   lng: info.lng,
   total: info.total,
   country,
+  info,
 }))
 
 function darkTileUrl(x, y, l) {
@@ -97,7 +98,7 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
 
   const clusters = useMemo(() => clusterPoints(points, binDeg), [points, binDeg])
 
-  const markers = useMemo(() => [...GLOW_MARKERS, ...clusters], [clusters])
+  const markers = useMemo(() => [...COUNTRY_MARKERS, ...clusters], [clusters])
 
   const handleZoom = useCallback(({ altitude: alt }) => {
     clearTimeout(altitudeTimer.current)
@@ -118,15 +119,27 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
     [altitude, onSelectIncident, onClusterSelect]
   )
 
+  const handleCountryClick = useCallback(
+    (marker) => {
+      const countryIncidents = points.filter((p) => p.incident.location.state === marker.country).map((p) => p.incident)
+      onClusterSelect?.(countryIncidents, marker.info)
+      const globe = globeRef.current
+      globe.pointOfView({ lat: marker.lat, lng: marker.lng, altitude: 0.6 }, 600)
+    },
+    [points, onClusterSelect]
+  )
+
   const makeClusterEl = useCallback(
     (d) => {
       const el = document.createElement('div')
-      if (d.kind === 'glow') {
-        const px = Math.min(220, 60 + Math.sqrt(d.total) * 1.2)
-        el.className = 'globe-glow'
-        el.style.width = `${px}px`
-        el.style.height = `${px}px`
-        el.title = `${d.country}: ~${d.total.toLocaleString()} reported incidents`
+      if (d.kind === 'country') {
+        el.className = 'globe-country-pin'
+        el.textContent = d.total >= 1000 ? `${(d.total / 1000).toFixed(1)}K` : d.total
+        el.title = `${d.country}: ~${d.total.toLocaleString()} reported incidents (click to see researched cases)`
+        el.addEventListener('click', (e) => {
+          e.stopPropagation()
+          handleCountryClick(d)
+        })
         return el
       }
       if (d.count === 1) {
@@ -147,7 +160,7 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
       })
       return el
     },
-    [handleClusterClick]
+    [handleClusterClick, handleCountryClick]
   )
 
   return (
