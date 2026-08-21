@@ -1,8 +1,21 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import Globe from 'react-globe.gl'
 import { TYPE_COLORS } from '../typeColors'
+import countryTotals from '../data/countryTotals.json'
 
 const MIN_ALTITUDE = 0.03
+
+// Background glow per country, sized by its real officially-reported total
+// (not just what we've individually sourced) — so a country with only a
+// handful of researched pins still visually reads at its true scale. Purely
+// decorative: no pointer-events, sits behind the clickable cluster markers.
+const GLOW_MARKERS = Object.entries(countryTotals).map(([country, info]) => ({
+  kind: 'glow',
+  lat: info.lat,
+  lng: info.lng,
+  total: info.total,
+  country,
+}))
 
 function darkTileUrl(x, y, l) {
   return `https://a.basemaps.cartocdn.com/dark_all/${l}/${x}/${y}.png`
@@ -84,6 +97,8 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
 
   const clusters = useMemo(() => clusterPoints(points, binDeg), [points, binDeg])
 
+  const markers = useMemo(() => [...GLOW_MARKERS, ...clusters], [clusters])
+
   const handleZoom = useCallback(({ altitude: alt }) => {
     clearTimeout(altitudeTimer.current)
     altitudeTimer.current = setTimeout(() => setAltitude(alt), 120)
@@ -106,6 +121,14 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
   const makeClusterEl = useCallback(
     (d) => {
       const el = document.createElement('div')
+      if (d.kind === 'glow') {
+        const px = Math.min(220, 60 + Math.sqrt(d.total) * 1.2)
+        el.className = 'globe-glow'
+        el.style.width = `${px}px`
+        el.style.height = `${px}px`
+        el.title = `${d.country}: ~${d.total.toLocaleString()} reported incidents`
+        return el
+      }
       if (d.count === 1) {
         el.className = 'globe-point'
         el.style.backgroundColor = d.color
@@ -137,7 +160,7 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
         globeTileEngineMaxLevel={8}
         backgroundColor="rgba(0,0,0,0)"
         onZoom={handleZoom}
-        htmlElementsData={clusters}
+        htmlElementsData={markers}
         htmlLat="lat"
         htmlLng="lng"
         htmlElement={makeClusterEl}

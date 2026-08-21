@@ -1,5 +1,7 @@
 {
   "United Kingdom": {
+    "lat": 54.0,
+    "lng": -2.5,
     "total": 11554,
     "period": "2023–2025 (CST calendar-year totals)",
     "source_name": "Community Security Trust",
