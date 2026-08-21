@@ -18,6 +18,8 @@ const COUNTRY_MARKERS = Object.entries(countryTotals).map(([country, info]) => (
   info,
 }))
 
+const COUNTRIES_WITH_TOTAL_PIN = new Set(Object.keys(countryTotals))
+
 function darkTileUrl(x, y, l) {
   return `https://a.basemaps.cartocdn.com/dark_all/${l}/${x}/${y}.png`
 }
@@ -50,7 +52,14 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
   const containerRef = useRef()
   const [size, setSize] = useState({ width: 600, height: 420 })
   const [altitude, setAltitude] = useState(1.8)
+  const [focusedCountry, setFocusedCountry] = useState(null)
   const altitudeTimer = useRef()
+
+  // Zooming back out drops the drill-in — the country collapses back to a
+  // single total pin instead of leaving its individual pins on screen.
+  useEffect(() => {
+    if (focusedCountry && altitude > 1.2) setFocusedCountry(null)
+  }, [altitude, focusedCountry])
 
   useEffect(() => {
     const el = containerRef.current
@@ -73,13 +82,21 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
 
   const points = useMemo(
     () =>
-      incidents.map((incident) => ({
-        lat: incident.location.lat,
-        lng: incident.location.lng,
-        color: TYPE_COLORS[incident.type],
-        incident,
-      })),
-    [incidents]
+      incidents
+        .filter((incident) => {
+          const country = incident.location.state
+          // Countries with a total pin stay collapsed into that single pin
+          // until it's clicked — otherwise their individual pins clutter
+          // the zoomed-out view right next to the pin showing their total.
+          return !COUNTRIES_WITH_TOTAL_PIN.has(country) || country === focusedCountry
+        })
+        .map((incident) => ({
+          lat: incident.location.lat,
+          lng: incident.location.lng,
+          color: TYPE_COLORS[incident.type],
+          incident,
+        })),
+    [incidents, focusedCountry]
   )
 
   // Fixed zoom levels (like map tile clustering) instead of a continuous
@@ -98,7 +115,11 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
 
   const clusters = useMemo(() => clusterPoints(points, binDeg), [points, binDeg])
 
-  const markers = useMemo(() => [...COUNTRY_MARKERS, ...clusters], [clusters])
+  const countryMarkers = useMemo(
+    () => COUNTRY_MARKERS.filter((m) => m.country !== focusedCountry),
+    [focusedCountry]
+  )
+  const markers = useMemo(() => [...countryMarkers, ...clusters], [countryMarkers, clusters])
 
   const handleZoom = useCallback(({ altitude: alt }) => {
     clearTimeout(altitudeTimer.current)
@@ -121,12 +142,13 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
 
   const handleCountryClick = useCallback(
     (marker) => {
-      const countryIncidents = points.filter((p) => p.incident.location.state === marker.country).map((p) => p.incident)
+      const countryIncidents = incidents.filter((i) => i.location.state === marker.country)
       onClusterSelect?.(countryIncidents, marker.info)
+      setFocusedCountry(marker.country)
       const globe = globeRef.current
       globe.pointOfView({ lat: marker.lat, lng: marker.lng, altitude: 0.6 }, 600)
     },
-    [points, onClusterSelect]
+    [incidents, onClusterSelect]
   )
 
   const makeClusterEl = useCallback(
