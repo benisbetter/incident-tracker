@@ -33718,5 +33718,455 @@
     "source_url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2026/july/officers-have-arrested-two-people-after-bb-gun-being-fired-at-members-of-the-jewish-community/",
     "source_name": "Greater Manchester Police",
     "verified": true
+  },
+  {
+    "date": "2023-10-22",
+    "location": {
+      "lat": 40.6401,
+      "lng": 22.9444,
+      "city": "Thessaloniki",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Unknown persons defaced a Holocaust deportation mural near Thessaloniki's New Railway Station with the slogans 'Jews = Nazis' and 'Free Palestine' and blackened Stars of David depicted on the mural.",
+    "source_url": "https://www.amna.gr/en/article/770163/Central-Jewish-Council-of-Greece-condemns-vandalism-of-Thessalonikis-Holocaust-mural",
+    "source_name": "Athens-Macedonian News Agency",
+    "verified": true
+  },
+  {
+    "date": "2023-11-08",
+    "location": {
+      "lat": 40.9396,
+      "lng": 24.4069,
+      "city": "Kavala",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Unknown persons threw black paint on the Holocaust Monument to Kavala's Jews; municipal workers subsequently cleaned the monument.",
+    "source_url": "https://www.kavalapost.gr/kinonia/308621/kavala-agnostoi-erixan-mpogia-sto-mnimeio-toy-olokaytomatos-ton-evraion-tis-polis/",
+    "source_name": "Kavala Post",
+    "verified": true
+  },
+  {
+    "date": "2023-11-20",
+    "location": {
+      "lat": 39.639,
+      "lng": 22.4191,
+      "city": "Larissa",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A group hung a large banner on Larissa's Holocaust Monument equating Gaza with Auschwitz; Greece's religious-sites report recorded the act as a desecration of the monument.",
+    "source_url": "https://www.minedu.gov.gr/publications/docs2023/%CE%88%CE%BA%CE%B8%CE%B5%CF%83%CE%B7_2023.pdf",
+    "source_name": "Greek Ministry of Education, Religious Affairs and Sports",
+    "verified": true
+  },
+  {
+    "date": "2023-11-23",
+    "location": {
+      "lat": 39.665,
+      "lng": 20.8537,
+      "city": "Ioannina",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "A man threw two eggs into the courtyard of the synagogue in Ioannina. Police formed a case file and submitted it to the public prosecutor.",
+    "source_url": "https://www.minedu.gov.gr/publications/docs2023/%CE%88%CE%BA%CE%B8%CE%B5%CF%83%CE%B7_2023.pdf",
+    "source_name": "Greek Ministry of Education, Religious Affairs and Sports",
+    "verified": true
+  },
+  {
+    "date": "2024-01-08",
+    "location": {
+      "lat": 39.361,
+      "lng": 22.9425,
+      "city": "Volos",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "The slogan 'Crush them' was painted in black on the exterior wall of the Jewish cemetery in Volos.",
+    "source_url": "https://www.minedu.gov.gr/publications/docs2025/ggth/2025-11-25_%CE%88%CE%BA%CE%B8%CE%B5%CF%83%CE%B7_2024.pdf",
+    "source_name": "Greek Ministry of Education, Religious Affairs and Sports",
+    "verified": true
+  },
+  {
+    "date": "2024-01-08",
+    "location": {
+      "lat": 39.361,
+      "lng": 22.9425,
+      "city": "Volos",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Graffiti reading 'Not in our name' together with a Star of David was painted on the base of the Holocaust Monument in Volos.",
+    "source_url": "https://www.minedu.gov.gr/publications/docs2025/ggth/2025-11-25_%CE%88%CE%BA%CE%B8%CE%B5%CF%83%CE%B7_2024.pdf",
+    "source_name": "Greek Ministry of Education, Religious Affairs and Sports",
+    "verified": true
+  },
+  {
+    "date": "2024-05-15",
+    "location": {
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "city": "Athens",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "Attackers broke windows at a restaurant in an Israeli-owned Athens hotel and threw clothing soaked in flammable liquid inside, starting a fire. Four suspects were later arrested in connection with the attack.",
+    "source_url": "https://www.ekathimerini.com/news/1243251/seven-arrested-for-attacks-on-jewish-targets/",
+    "source_name": "Kathimerini",
+    "verified": true
+  },
+  {
+    "date": "2024-05",
+    "location": {
+      "lat": 35.3387,
+      "lng": 25.1442,
+      "city": "Heraklion",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "KIS reported antisemitic Hebrew-language graffiti at several locations in Heraklion and asked municipal authorities to remove it; the exact day was not publicly specified.",
+    "source_url": "https://www.minedu.gov.gr/publications/docs2025/ggth/2025-11-25_%CE%88%CE%BA%CE%B8%CE%B5%CF%83%CE%B7_2024.pdf",
+    "source_name": "Greek Ministry of Education, Religious Affairs and Sports",
+    "verified": true
+  },
+  {
+    "date": "2024-06-18",
+    "location": {
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "city": "Athens",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "high",
+    "description": "Two people on a motorcycle threw flammable material at the entrance of an Athens synagogue and Chabad premises, causing a fire. Greek authorities later arrested suspects and referred the case to prosecutors.",
+    "source_url": "https://www.ekathimerini.com/news/1243173/police-arrests-seven-people-accused-for-arson-attacks-against-synagogue-and-hotel/",
+    "source_name": "Kathimerini",
+    "verified": true
+  },
+  {
+    "date": "2024-07-20",
+    "location": {
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "city": "Athens",
+      "state": "Greece"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "An Israeli tourist who was speaking Hebrew and wearing a Star of David was assaulted in Athens; reports said the attackers fled after seeing a cross worn by a second man.",
+    "source_url": "https://www.timesofisrael.com/israeli-tourists-said-attacked-in-athens-for-speaking-hebrew-wearing-star-of-david/",
+    "source_name": "Times of Israel",
+    "verified": true
+  },
+  {
+    "date": "2024-09",
+    "location": {
+      "lat": 35.3387,
+      "lng": 25.1442,
+      "city": "Heraklion",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "KIS reported that antisemitic Hebrew-language graffiti reappeared in Kornarou Square in Heraklion after an earlier removal; the exact day was not publicly specified.",
+    "source_url": "https://www.minedu.gov.gr/publications/docs2025/ggth/2025-11-25_%CE%88%CE%BA%CE%B8%CE%B5%CF%83%CE%B7_2024.pdf",
+    "source_name": "Greek Ministry of Education, Religious Affairs and Sports",
+    "verified": true
+  },
+  {
+    "date": "2024-11-08",
+    "location": {
+      "lat": 38.4625,
+      "lng": 23.595,
+      "city": "Chalkida",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Minors painted a swastika on the exterior wall of the synagogue in Chalkida; authorities issued them a warning.",
+    "source_url": "https://www.minedu.gov.gr/publications/docs2025/ggth/2025-11-25_%CE%88%CE%BA%CE%B8%CE%B5%CF%83%CE%B7_2024.pdf",
+    "source_name": "Greek Ministry of Education, Religious Affairs and Sports",
+    "verified": true
+  },
+  {
+    "date": "2025-02-15",
+    "location": {
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "city": "Athens",
+      "state": "Greece"
+    },
+    "type": "injury",
+    "severity": "high",
+    "description": "Two men allegedly attacked Israeli tourists after hearing them speak Hebrew and seeing a Star of David necklace; one victim was reportedly stabbed in the forehead and police detained a suspect.",
+    "source_url": "https://www.timesofisrael.com/israeli-tourists-said-attacked-in-athens-for-speaking-hebrew-wearing-star-of-david/",
+    "source_name": "Times of Israel",
+    "verified": true
+  },
+  {
+    "date": "2025-04-22",
+    "location": {
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "city": "Athens",
+      "state": "Greece"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Posters in Hebrew stating that Jews were not welcome were placed in Athens neighborhoods containing short-term rentals used by Israeli visitors.",
+    "source_url": "https://www.kathimerini.gr/opinion/563577439/o-antisimitismos-se-dromoys-trion-poleon/",
+    "source_name": "Kathimerini",
+    "verified": true
+  },
+  {
+    "date": "2025-04-22",
+    "location": {
+      "lat": 40.6401,
+      "lng": 22.9444,
+      "city": "Thessaloniki",
+      "state": "Greece"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Posters in Hebrew stating that Jews were not welcome were placed in Thessaloniki neighborhoods containing short-term rentals used by Israeli visitors.",
+    "source_url": "https://www.kathimerini.gr/opinion/563577439/o-antisimitismos-se-dromoys-trion-poleon/",
+    "source_name": "Kathimerini",
+    "verified": true
+  },
+  {
+    "date": "2025-04-22",
+    "location": {
+      "lat": 39.665,
+      "lng": 20.8537,
+      "city": "Ioannina",
+      "state": "Greece"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Posters in Hebrew stating that Jews were not welcome were placed in Ioannina neighborhoods containing short-term rentals used by Israeli visitors.",
+    "source_url": "https://www.kathimerini.gr/opinion/563577439/o-antisimitismos-se-dromoys-trion-poleon/",
+    "source_name": "Kathimerini",
+    "verified": true
+  },
+  {
+    "date": "2025-06",
+    "location": {
+      "lat": 39.639,
+      "lng": 22.4191,
+      "city": "Larissa",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "KIS reported the desecration of the Holocaust Monument in Larissa during a recent series of attacks; the public report did not specify the exact day.",
+    "source_url": "https://www.ekathimerini.com/in-depth/society-in-depth/1272848/jewish-council-reports-increase-in-vandalism-against-jewish-sites/",
+    "source_name": "Kathimerini",
+    "verified": true
+  },
+  {
+    "date": "2025-06-10",
+    "location": {
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "city": "Athens",
+      "state": "Greece"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A group allegedly assaulted an Israeli tourist in Athens after hearing Hebrew navigation directions; reports said police initially detained the victim.",
+    "source_url": "https://www.jpost.com/israel-news/article-857376",
+    "source_name": "Jerusalem Post",
+    "verified": true
+  },
+  {
+    "date": "2025-06",
+    "location": {
+      "lat": 40.6401,
+      "lng": 22.9444,
+      "city": "Thessaloniki",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "KIS reported the desecration of the memorial to the Old Jewish Cemetery at Aristotle University in Thessaloniki; the public report did not specify the exact day.",
+    "source_url": "https://www.ekathimerini.com/in-depth/society-in-depth/1272848/jewish-council-reports-increase-in-vandalism-against-jewish-sites/",
+    "source_name": "Kathimerini",
+    "verified": true
+  },
+  {
+    "date": "2025-06",
+    "location": {
+      "lat": 39.361,
+      "lng": 22.9425,
+      "city": "Volos",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "KIS reported antisemitic graffiti at the Jewish cemetery in Volos during a recent series of attacks; the public report did not specify the exact day.",
+    "source_url": "https://www.ekathimerini.com/in-depth/society-in-depth/1272848/jewish-council-reports-increase-in-vandalism-against-jewish-sites/",
+    "source_name": "Kathimerini",
+    "verified": true
+  },
+  {
+    "date": "2025-06",
+    "location": {
+      "lat": 39.665,
+      "lng": 20.8537,
+      "city": "Ioannina",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "The offices of the Jewish Community of Ioannina were defaced; the public source condemned the act but did not specify the exact day.",
+    "source_url": "https://www.pirateparty.gr/2025/06/katadiki-bebilosis-grafeion-israilitikis-koinotitas-ioanninon/",
+    "source_name": "Pirate Party of Greece",
+    "verified": true
+  },
+  {
+    "date": "2025-07-12",
+    "location": {
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "city": "Athens",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Six masked activists entered an Israeli-owned kosher restaurant in Athens, sprayed threatening anti-Zionist slogans on walls and furniture, and warned staff.",
+    "source_url": "https://www.kis.gr/en/israil/polemos-xamas-israil-2023/ellada-l126/epithese-se-koser-estiatorio-sten-athena",
+    "source_name": "Central Board of Jewish Communities in Greece",
+    "verified": true
+  },
+  {
+    "date": "2025-07-26",
+    "location": {
+      "lat": 37.9147,
+      "lng": 23.7166,
+      "city": "Alimos",
+      "state": "Greece"
+    },
+    "type": "injury",
+    "severity": "high",
+    "description": "An Israeli tourist said a man shouting pro-Hamas and anti-Israel slogans attacked him on an Alimos beach and bit off part of his ear. Police arrested the alleged assailant.",
+    "source_url": "https://www.ertnews.gr/eidiseis/ellada/paralia-alimou-syros-diapliktistike-me-israilino-tourista-ton-dagkose-kai-tou-ekopse-to-ayti/",
+    "source_name": "ERT News",
+    "verified": true
+  },
+  {
+    "date": "2025-07-27",
+    "location": {
+      "lat": 40.6401,
+      "lng": 22.9444,
+      "city": "Thessaloniki",
+      "state": "Greece"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "An Israeli tourist and her grandparents were threatened and chased by men on motorcycles who shouted anti-Israel abuse and told them to die.",
+    "source_url": "https://www.gov.il/BlobFolder/reports/greece_propalestinian_threats_and_harassment_israeli_tourists_thessaloniki_2025-07-27/en/mashlat_half2_2025_greece_propalestinian_threats_and_harassment_israeli_tourists_thessaloniki_2025-07-27.pdf",
+    "source_name": "Israel Ministry of Diaspora Affairs",
+    "verified": true
+  },
+  {
+    "date": "2025-08",
+    "location": {
+      "lat": 39.5473,
+      "lng": 21.0045,
+      "city": "Tzoumerka",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "Graffiti reading 'Free Palestine, death to the IDF' was recorded on a building in the Tzoumerka region frequented by Israeli tourists; the public report gave only the month.",
+    "source_url": "https://www.gov.il/BlobFolder/reports/diaspora_biweekly_report_antisemitism_delegitimization_2025-07-30_to_2025-08-13/en/mashlat_half2_2025_diaspora_biweekly_report_antisemitism_delegitimization_2025-07-30_to_2025-08-13.pdf",
+    "source_name": "Israel Ministry of Diaspora Affairs",
+    "verified": true
+  },
+  {
+    "date": "2025-08",
+    "location": {
+      "lat": 40.6401,
+      "lng": 22.9444,
+      "city": "Thessaloniki",
+      "state": "Greece"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "Posters promoting Hamas and calling for Israel's destruction were recorded at multiple locations in central Thessaloniki; the public report gave only the month.",
+    "source_url": "https://www.gov.il/BlobFolder/reports/diaspora_biweekly_report_antisemitism_delegitimization_2025-07-30_to_2025-08-13/en/mashlat_half2_2025_diaspora_biweekly_report_antisemitism_delegitimization_2025-07-30_to_2025-08-13.pdf",
+    "source_name": "Israel Ministry of Diaspora Affairs",
+    "verified": true
+  },
+  {
+    "date": "2025-11-08",
+    "location": {
+      "lat": 40.6401,
+      "lng": 22.9444,
+      "city": "Thessaloniki",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "The memorial column marking Thessaloniki's former Campbell Jewish neighborhood was vandalized on the eve of the anniversary of Kristallnacht.",
+    "source_url": "https://www.ertnews.gr/ert3/thessaloniki-anakoinosi-tou-kise-gia-tin-87i-epeteio-tis-nyxtas-ton-krystallon-meta-kai-ton-xthesino-vandalismo-sti-stili-mnimis-tou-evraikou-synoikismou-kampel/",
+    "source_name": "ERT News",
+    "verified": true
+  },
+  {
+    "date": "2026-02-27",
+    "location": {
+      "lat": 40.6401,
+      "lng": 22.9444,
+      "city": "Thessaloniki",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "The memorial to the Old Jewish Cemetery on the Aristotle University campus was desecrated and damaged; university authorities arranged its restoration.",
+    "source_url": "https://www.auth.gr/press/anakoinosi-prytanikon-archon-gia-ti-v/",
+    "source_name": "Aristotle University of Thessaloniki",
+    "verified": true
+  },
+  {
+    "date": "2026-04-15",
+    "location": {
+      "lat": 39.361,
+      "lng": 22.9425,
+      "city": "Volos",
+      "state": "Greece"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Unknown persons sprayed pro-Nazi and anti-Jewish slogans at the Jewish cemetery in Volos around Holocaust Remembrance Day.",
+    "source_url": "https://www.ertnews.gr/perifereiakoi-stathmoi/volos/vandalismos-me-nazistika-synthimata-sto-evraiko-nekrotafeio-volou-katadiki-apo-to-kise/",
+    "source_name": "ERT News",
+    "verified": true
+  },
+  {
+    "date": "2026-06-27",
+    "location": {
+      "lat": 40.6401,
+      "lng": 22.9444,
+      "city": "Thessaloniki",
+      "state": "Greece"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Men in black shirts carrying Palestinian flags conducted self-described anti-Zionist street patrols in Thessaloniki that Jewish organizations condemned as intimidation echoing the 1931 Campbell pogrom.",
+    "source_url": "https://eurojewcong.org/news/communities-news/greece/anti-zionist-patrols-in-thessaloniki-condemned-as-echoing-citys-june-1931-pogrom/",
+    "source_name": "European Jewish Congress",
+    "verified": true
   }
 ]

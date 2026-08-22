@@ -1,34 +1,8 @@
 {
-  "United Kingdom": {
-    "lat": 54.0,
-    "lng": -2.5,
-    "total": 11554,
-    "period": "2023–2025 (CST calendar-year totals)",
-    "source_name": "Community Security Trust",
-    "source_url": "https://cst.org.uk/research/cst-publications/antisemitic-incidents-report-2025"
-  },
-  "Germany": {
-    "lat": 51.1657,
-    "lng": 10.4515,
-    "total": 22134,
-    "period": "2023–2025 (RIAS calendar-year totals)",
-    "source_name": "Bundesverband RIAS",
-    "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf"
-  },
-  "France": {
-    "lat": 46.6,
-    "lng": 2.2,
-    "total": 4566,
-    "period": "2023–2025 (SPCJ calendar-year totals)",
-    "source_name": "SPCJ",
-    "source_url": "https://www.spcj.org/antisemitisme/chiffres-de-l-antisemitisme-2025"
-  },
-  "Italy": {
-    "lat": 42.5,
-    "lng": 12.5,
-    "total": 2293,
-    "period": "2023–2025 (CDEC calendar-year totals)",
-    "source_name": "CDEC (Centro di Documentazione Ebraica Contemporanea)",
-    "source_url": "https://eurojewcong.org/news/communities-news/italy/cdec-reports-963-antisemitic-incidents-in-italy-in-2025/"
-  }
+  "United Kingdom": { "lat": 54.0, "lng": -2.5, "total": 11554, "period": "2023–2025 (CST calendar-year totals)", "source_name": "Community Security Trust", "source_url": "https://cst.org.uk/research/cst-publications/antisemitic-incidents-report-2025" },
+  "Germany": { "lat": 51.1657, "lng": 10.4515, "total": 22134, "period": "2023–2025 (RIAS calendar-year totals)", "source_name": "Bundesverband RIAS", "source_url": "https://report-antisemitism.de/documents/17-06-26_Antisemitic_incidents_in_Germany_Annual-Report_Federal_Association_RIAS_2025.pdf" },
+  "France": { "lat": 46.6, "lng": 2.2, "total": 4566, "period": "2023–2025 (SPCJ calendar-year totals)", "source_name": "SPCJ", "source_url": "https://www.spcj.org/antisemitisme/chiffres-de-l-antisemitisme-2025" },
+  "Italy": { "lat": 42.5, "lng": 12.5, "total": 2293, "period": "2023–2025 (CDEC calendar-year totals)", "source_name": "CDEC (Centro di Documentazione Ebraica Contemporanea)", "source_url": "https://eurojewcong.org/news/communities-news/italy/cdec-reports-963-antisemitic-incidents-in-italy-in-2025/" },
+  "Poland": { "lat": 51.9194, "lng": 19.1451, "total": 2387, "period": "2023–2024 (Czulent calendar-year totals)", "source_name": "Jewish Association Czulent", "source_url": "https://czulent.pl/wp-content/uploads/2025/07/Czulent_RAPORT_Antysemickie_incydenty_w_roku_2024_EN_07-07.pdf" },
+  "Spain": { "lat": 40.4637, "lng": -3.7492, "total": 460, "period": "2023–2025 (Observatorio calendar-year totals)", "source_name": "Observatorio de Antisemitismo (FCJE/MCI)", "source_url": "https://observatorioantisemitismo.fcje.org/publicaciones/" }
 }
