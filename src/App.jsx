@@ -101,12 +101,12 @@ export default function App() {
         <button className={`main-tab ${mainTab === 'charts' ? 'active' : ''}`} onClick={() => setMainTab('charts')}>
           Charts
         </button>
-        <button className="fullscreen-btn" onClick={toggleFullscreen} title={isFullscreen ? 'Exit full screen' : 'Full screen'}>
-          {isFullscreen ? '⤡ Exit full screen' : '⤢ Full screen'}
-        </button>
       </div>
 
       <div className="main-view">
+        <button className="fullscreen-btn" onClick={toggleFullscreen} title={isFullscreen ? 'Exit full screen' : 'Full screen'}>
+          {isFullscreen ? '⤡' : '⤢'}
+        </button>
         <div className="map-column" style={{ display: mainTab === 'globe' ? 'block' : 'none' }}>
           <GlobeView
             incidents={filteredIncidents}
