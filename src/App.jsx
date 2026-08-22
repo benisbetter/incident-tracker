@@ -24,6 +24,27 @@ export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [clusterIncidents, setClusterIncidents] = useState(null)
   const [clusterMeta, setClusterMeta] = useState(null)
+  const [isFullscreen, setIsFullscreen] = useState(false)
+
+  useEffect(() => {
+    const handleChange = () => setIsFullscreen(Boolean(document.fullscreenElement))
+    document.addEventListener('fullscreenchange', handleChange)
+    return () => document.removeEventListener('fullscreenchange', handleChange)
+  }, [])
+
+  const toggleFullscreen = () => {
+    if (document.fullscreenElement) {
+      document.exitFullscreen()
+      return
+    }
+    if (document.documentElement.requestFullscreen) {
+      document.documentElement.requestFullscreen().catch(() => setIsFullscreen((v) => !v))
+    } else {
+      // Fullscreen API unsupported (e.g. embedded iframe) — fall back to a
+      // layout-only "fullscreen" that just hides the title, no real API call.
+      setIsFullscreen((v) => !v)
+    }
+  }
 
   useEffect(() => {
     fetch('/api/incidents')
@@ -47,20 +68,22 @@ export default function App() {
   }, [incidents, filters])
 
   return (
-    <div className={`app ${drawerOpen ? 'app-drawer-open' : ''}`}>
-      <header className="app-header">
-        <div className="app-title">
-          <span className="app-title-mark">✡</span>
-          <div>
-            <h1>Antisemitism Incident Tracker</h1>
-            <p>Tracking incidents reported since October 7, 2023</p>
+    <div className={`app ${drawerOpen ? 'app-drawer-open' : ''} ${isFullscreen ? 'app-fullscreen' : ''}`}>
+      {!isFullscreen && (
+        <header className="app-header">
+          <div className="app-title">
+            <span className="app-title-mark">✡</span>
+            <div>
+              <h1>Antisemitism Incident Tracker</h1>
+              <p>Tracking incidents reported since October 7, 2023</p>
+            </div>
           </div>
-        </div>
-        <div className="app-header-stat">
-          <span className="app-header-stat-number">{filteredIncidents.length.toLocaleString()}</span>
-          <span className="app-header-stat-label">incidents shown</span>
-        </div>
-      </header>
+          <div className="app-header-stat">
+            <span className="app-header-stat-number">{filteredIncidents.length.toLocaleString()}</span>
+            <span className="app-header-stat-label">incidents shown</span>
+          </div>
+        </header>
+      )}
 
       <FilterBar
         filters={filters}
@@ -77,6 +100,9 @@ export default function App() {
         </button>
         <button className={`main-tab ${mainTab === 'charts' ? 'active' : ''}`} onClick={() => setMainTab('charts')}>
           Charts
+        </button>
+        <button className="fullscreen-btn" onClick={toggleFullscreen} title={isFullscreen ? 'Exit full screen' : 'Full screen'}>
+          {isFullscreen ? '⤡ Exit full screen' : '⤢ Full screen'}
         </button>
       </div>
 
