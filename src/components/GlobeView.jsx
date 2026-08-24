@@ -188,15 +188,37 @@ export default function GlobeView({ incidents, onSelectIncident, onClusterSelect
     const countryIncidents = incidentsRef.current.filter((i) => i.location.state === marker.country)
     onClusterSelectRef.current?.(countryIncidents, marker.info)
     setFocusedCountry(marker.country)
-    drillAltitude.current = 0.15
+
+    // Fly to where this country's incidents actually are, zoomed to fit
+    // their real spread — a fixed centroid/altitude looked fine for small,
+    // tightly-clustered countries like the UK but left large ones (Canada,
+    // Australia) either zoomed into empty ocean or too tight to see any of
+    // the scattered cities the incidents are actually in.
+    let lat = marker.lat
+    let lng = marker.lng
+    let targetAltitude = 0.15
+    if (countryIncidents.length > 0) {
+      const lats = countryIncidents.map((i) => i.location.lat)
+      const lngs = countryIncidents.map((i) => i.location.lng)
+      const minLat = Math.min(...lats)
+      const maxLat = Math.max(...lats)
+      const minLng = Math.min(...lngs)
+      const maxLng = Math.max(...lngs)
+      lat = (minLat + maxLat) / 2
+      lng = (minLng + maxLng) / 2
+      const span = Math.max(maxLat - minLat, maxLng - minLng)
+      targetAltitude = Math.min(1.2, Math.max(0.1, span / 45))
+    }
+
+    drillAltitude.current = targetAltitude
     drillLockUntil.current = Date.now() + 700
     // pointOfView's own fly-in animation doesn't reliably fire onZoom, so
     // altitude (which drives clustering) would otherwise stay stale until
     // the next manual scroll — set it directly instead of waiting on that.
     clearTimeout(altitudeTimer.current)
-    setAltitude(0.15)
+    setAltitude(targetAltitude)
     const globe = globeRef.current
-    globe.pointOfView({ lat: marker.lat, lng: marker.lng, altitude: 0.15 }, 600)
+    globe.pointOfView({ lat, lng, altitude: targetAltitude }, 600)
   }, [])
 
   const makeClusterEl = useCallback((d) => {
