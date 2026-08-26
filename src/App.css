@@ -66,6 +66,12 @@ html, body {
   font-size: 13px;
 }
 
+.app-header-stats {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .app-header-stat {
   display: flex;
   flex-direction: column;
@@ -74,6 +80,7 @@ html, body {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--panel);
+  cursor: default;
 }
 
 .app-header-stat-number {

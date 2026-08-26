@@ -8,6 +8,8 @@ import IncidentDetail from './components/IncidentDetail'
 import DonateSection from './components/DonateSection'
 import CoverageNote from './components/CoverageNote'
 import { TYPE_COLORS } from './typeColors'
+import { US_STATE_CODES } from './usStateCodes'
+import countryTotals from './data/countryTotals.json'
 import './App.css'
 
 const DEFAULT_FILTERS = {
@@ -58,6 +60,28 @@ export default function App() {
       })
   }, [])
 
+  // The US has no gap between "mapped" and "reported" — ADL's feed is the
+  // full incident set. Every other country only has individual detail for
+  // a subset, so for those this adds their real published aggregate total
+  // instead of just the ones we could map (falling back to the mapped
+  // count only when no aggregate total exists, e.g. Greece).
+  const worldwideTotal = useMemo(() => {
+    const countByCountry = {}
+    for (const incident of incidents) {
+      const country = incident.location.state
+      countByCountry[country] = (countByCountry[country] || 0) + 1
+    }
+    let total = 0
+    for (const [country, count] of Object.entries(countByCountry)) {
+      if (US_STATE_CODES.has(country)) {
+        total += count
+      } else {
+        total += countryTotals[country]?.total ?? count
+      }
+    }
+    return total
+  }, [incidents])
+
   const filteredIncidents = useMemo(() => {
     return incidents.filter((incident) => {
       if (!filters.types.includes(incident.type)) return false
@@ -78,9 +102,15 @@ export default function App() {
               <p>Tracking incidents reported since October 7, 2023</p>
             </div>
           </div>
-          <div className="app-header-stat">
-            <span className="app-header-stat-number">{filteredIncidents.length.toLocaleString()}</span>
-            <span className="app-header-stat-label">incidents shown</span>
+          <div className="app-header-stats">
+            <div className="app-header-stat">
+              <span className="app-header-stat-number">{filteredIncidents.length.toLocaleString()}</span>
+              <span className="app-header-stat-label">incidents shown</span>
+            </div>
+            <div className="app-header-stat" title="US: every individual incident (ADL feed). Other countries: their official published total, not just the ones we could individually map.">
+              <span className="app-header-stat-number">{worldwideTotal.toLocaleString()}</span>
+              <span className="app-header-stat-label">total reported worldwide</span>
+            </div>
           </div>
         </header>
       )}
