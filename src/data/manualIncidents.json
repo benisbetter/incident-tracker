@@ -68353,5 +68353,635 @@
     "source_url": "https://archive.jpr.org.uk/download?id=28576",
     "source_name": "CIDI",
     "verified": true
+  },
+  {
+    "date": "2023-11",
+    "location": {
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "city": "Rio de Janeiro",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "CONIB reported that Jewish students at PUC-Rio were prevented from speaking during a debate about Hamas and Israel in November 2023.",
+    "source_url": "https://conib.org.br/noticias/todas-as-noticias/40393-universidades-brasileiras-registram-escalada-de-incidentes-antissemitas.html",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2024-01",
+    "location": {
+      "lat": -23.9608,
+      "lng": -46.3336,
+      "city": "Santos",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "The Bet Jacob Synagogue in Santos was marked with graffiti referring to the Middle East conflict; CONIB classified the targeting of the synagogue as antisemitic.",
+    "source_url": "https://www.conib.org.br/noticias/todas-as-noticias/38343-conib-condena-ato-antissemita-em-pichacao-de-sinagoga-em-santos.html",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2024-02-02",
+    "location": {
+      "lat": -16.4848,
+      "lng": -39.0733,
+      "city": "Arraial d'Ajuda",
+      "state": "Brazil"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A Jewish shop owner in Arraial d'Ajuda was subjected to antisemitic abuse and an alleged physical attack at her business. Police investigated allegations including racism, threats, property damage and bodily injury.",
+    "source_url": "https://www.cnnbrasil.com.br/nacional/empresaria-judia-e-alvo-de-ataques-antissemitas-em-sua-loja-na-ba-veja/",
+    "source_name": "CNN Brasil",
+    "verified": true
+  },
+  {
+    "date": "2024-03",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Students at a Sao Paulo school drew swastikas and wrote Nazi and antisemitic material targeting a Jewish classmate. The school suspended six students while investigating.",
+    "source_url": "https://www.cnnbrasil.com.br/nacional/aluno-judeu-e-vitima-de-antissemitismo-por-outros-colegas-em-escola-de-elite-de-sp//",
+    "source_name": "CNN Brasil",
+    "verified": true
+  },
+  {
+    "date": "2024-05",
+    "location": {
+      "lat": -3.7319,
+      "lng": -38.5267,
+      "city": "Fortaleza",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A Universidade Estadual do Ceara entrance examination treated the extermination of Jews as an economically disadvantageous choice in an answer that CONIB said trivialized the Holocaust; the question was later annulled.",
+    "source_url": "https://conib.org.br/noticias/todas-as-noticias/40393-universidades-brasileiras-registram-escalada-de-incidentes-antissemitas.html",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2024-06-25",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "high",
+    "description": "A 19-year-old man was arrested in Sao Paulo with approximately 100 Nazi objects and symbols and weapons. CONIB classified the case as Nazi advocacy and preparatory conduct for a terrorist attack.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2024-07-06",
+    "location": {
+      "lat": -23.9608,
+      "lng": -46.3336,
+      "city": "Santos",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "The Beit Sion Synagogue in Santos was marked with graffiti calling for death to Zionists, with a dollar sign substituted into the word.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2024-08-04",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "A building in Sao Paulo received a mural with a slogan that CONIB classified as calling for the elimination of Israel and its Jewish inhabitants.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2024-08-21",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A Sao Paulo viaduct was marked with 'White Power 88,' a Celtic cross and a pro-Palestinian slogan; CONIB classified the combined message as an antisemitic threat.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2024-09-11",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A man spat at Jewish people on a Sao Paulo street, knocked one victim's kippah to the ground and shouted pro-Hitler, pro-Hamas and exclusionary slogans.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2024-09-17",
+    "location": {
+      "lat": -26.9101,
+      "lng": -48.6705,
+      "city": "Itajai",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "Posters celebrating Adolf Hitler's birthday were placed on streets in Itajai, Santa Catarina.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2024-10-16",
+    "location": {
+      "lat": -23.0903,
+      "lng": -47.2181,
+      "city": "Indaiatuba",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A teacher in Indaiatuba told a Jewish colleague that improvement would require Hitler's return.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2024-11-10",
+    "location": {
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "city": "Rio de Janeiro",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A woman on a Rio de Janeiro street was called an antisemitic slur by a passerby.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2024-12-02",
+    "location": {
+      "lat": -23.9608,
+      "lng": -46.3336,
+      "city": "Santos",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A Jewish woman in Santos received a note at her home praising Hitler and Nazism, invoking gas and displaying swastikas.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2024-12-09",
+    "location": {
+      "lat": -27.5949,
+      "lng": -48.5482,
+      "city": "Florianopolis",
+      "state": "Brazil"
+    },
+    "type": "online",
+    "severity": "moderate",
+    "description": "A geography teacher at a Florianopolis school posted statements expressing disgust toward Jews, blaming Jews for killing Jesus, praising Hamas and describing Jews as scum.",
+    "source_url": "https://www.conib.org.br/images/noticias/39636/Relatorio_Antissemitismo_no_Brasil_2024_v4-web_1.pdf",
+    "source_name": "CONIB / FISESP",
+    "verified": true
+  },
+  {
+    "date": "2025-01-20",
+    "location": {
+      "lat": -30.0346,
+      "lng": -51.2177,
+      "city": "Porto Alegre",
+      "state": "Brazil"
+    },
+    "type": "online",
+    "severity": "moderate",
+    "description": "A listener sent an intimidating and hostile WhatsApp message to the presenters of the Jewish-themed Hora Israelita radio program in Porto Alegre.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-01-25",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A couple on a Sao Paulo street were confronted by a man who called Jews child killers and blamed all Jews for events in Palestine.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-01-28",
+    "location": {
+      "lat": -30.0346,
+      "lng": -51.2177,
+      "city": "Porto Alegre",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Pig carcasses were left outside the gate of a Jewish cemetery in Porto Alegre in an act CONIB classified as antisemitic desecration and intimidation.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-01-31",
+    "location": {
+      "lat": -3.119,
+      "lng": -60.0217,
+      "city": "Manaus",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "An employee of a public company in Manaus was photographed making a gesture resembling a Nazi salute and later described it as a joke.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-02-10",
+    "location": {
+      "lat": -30.0346,
+      "lng": -51.2177,
+      "city": "Porto Alegre",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A person attended a university graduation in Porto Alegre with a swastika drawn on their face; CONIB said the surrounding context reinforced the symbol's Nazi meaning.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-02-16",
+    "location": {
+      "lat": -3.119,
+      "lng": -60.0217,
+      "city": "Manaus",
+      "state": "Brazil"
+    },
+    "type": "online",
+    "severity": "moderate",
+    "description": "A rabbi in Manaus received messages containing threats of collective murder and references to plans for extreme violence.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-03-21",
+    "location": {
+      "lat": -27.1782,
+      "lng": -51.5044,
+      "city": "Joacaba",
+      "state": "Brazil"
+    },
+    "type": "physical_attack",
+    "severity": "high",
+    "description": "A man wearing a kippah and a Hebrew-language shirt was allegedly targeted in a deliberate attempted vehicle attack while using a pedestrian crossing in Joacaba. He jumped clear and avoided being struck.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-04-07",
+    "location": {
+      "lat": -2.7956,
+      "lng": -40.5142,
+      "city": "Jericoacoara",
+      "state": "Brazil"
+    },
+    "type": "physical_attack",
+    "severity": "high",
+    "description": "Local guides allegedly abandoned a group of young Israelis during river flooding near Jericoacoara, took the vehicle keys and photographed the group before leaving them at physical risk.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-04-24",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Posters reading 'Zionist is not a professor' were placed at the University of Sao Paulo Law School; CONIB classified them as promoting exclusion associated with Jewish identity.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-04-29",
+    "location": {
+      "lat": -30.0346,
+      "lng": -51.2177,
+      "city": "Porto Alegre",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "An intimidating letter was left at a Jewish youth movement's headquarters in Porto Alegre, comparing Jews with Nazis and stating that history would condemn them.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-04-30",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A visibly Jewish man was followed on Avenida Paulista by members of a group distributing newspapers while a woman shouted support for Hamas and called Jews murderers.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-05-03",
+    "location": {
+      "lat": -8.7608,
+      "lng": -63.8999,
+      "city": "Porto Velho",
+      "state": "Brazil"
+    },
+    "type": "physical_attack",
+    "severity": "moderate",
+    "description": "A woman in a Porto Velho bar pulled a man's Star of David pendant while saying that she hated Jews, wanted Jews to die and supported Hamas.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-05-14",
+    "location": {
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "city": "Rio de Janeiro",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Students at a Rio de Janeiro school made Nazi-themed image edits of a Jewish classmate and performed a Nazi salute in the classroom.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-05-15",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "A bus-stop structure on Avenida Reboucas in Sao Paulo was marked with graffiti comparing Israel to Nazi Germany.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-05-23",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "low",
+    "description": "A Sao Paulo hamburger restaurant displayed a drawing of a burning Israeli flag accompanied by a message calling for Zionism to be burned to the ground; CONIB classified it as antisemitic incitement.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-06-01",
+    "location": {
+      "lat": -30.0346,
+      "lng": -51.2177,
+      "city": "Porto Alegre",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A Palestinian flag and the words 'Palestina Viva' were painted on a post directly outside a synagogue and Jewish youth movement in Porto Alegre; CONIB classified the placement as intimidation of the local Jewish community.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-06-05",
+    "location": {
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "city": "Rio de Janeiro",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Stickers placed outside a Rio de Janeiro synagogue depicted a Star of David containing a skull and accused the targeted institution of supporting genocide in Gaza.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-06-09",
+    "location": {
+      "lat": -30.0346,
+      "lng": -51.2177,
+      "city": "Porto Alegre",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "Demonstrators gathered outside the Rio Grande do Sul Jewish federation with slogans calling for Israel's elimination and a placard praising Hamas; the federation said selecting a Jewish institution was intended to intimidate the community.",
+    "source_url": "https://www.conib.org.br/noticias-conib/39796-federacao-israelita-do-rs-e-alvo-de-manifestacao-antissemita.html",
+    "source_name": "CONIB / FIRS",
+    "verified": true
+  },
+  {
+    "date": "2025-06-10",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "online",
+    "severity": "moderate",
+    "description": "A psychologist affiliated with the University of Sao Paulo Hospital das Clinicas publicly stated that she would no longer treat members of the Jewish community, associating the decision with events in the Middle East.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-07-21",
+    "location": {
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "city": "Rio de Janeiro",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A person went to a Rio de Janeiro synagogue, shouted antisemitic slogans and kicked the institution's outer gate.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-08-11",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "low",
+    "description": "Products believed to be Israeli in a Vila Madalena supermarket were marked with stickers reading 'high in Palestinian blood.'",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-08-15",
+    "location": {
+      "lat": -19.9167,
+      "lng": -43.9345,
+      "city": "Belo Horizonte",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "A Jewish cemetery in Belo Horizonte was defaced with Nazi swastikas, accusations against Israel and a comparison between the Star of David and a swastika.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-08-29",
+    "location": {
+      "lat": -21.1699,
+      "lng": -47.8099,
+      "city": "Ribeirao Preto",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "Swastikas were painted overnight on the walls of four properties on the same street in Ribeirao Preto in an act recorded by security cameras.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-09-08",
+    "location": {
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "city": "Rio de Janeiro",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A Jewish student at a Rio de Janeiro school was repeatedly targeted with Nazi salutes and statements calling Jews violent, dirty and a group that should be removed.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-09-25",
+    "location": {
+      "lat": -14.2789,
+      "lng": -38.9958,
+      "city": "Itacare",
+      "state": "Brazil"
+    },
+    "type": "vandalism",
+    "severity": "moderate",
+    "description": "The Beit Chabad Jewish center in Itacare was vandalized with red graffiti reading 'Free Palestine' across its windows.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-11-13",
+    "location": {
+      "lat": -1.4558,
+      "lng": -48.4902,
+      "city": "Belem",
+      "state": "Brazil"
+    },
+    "type": "harassment",
+    "severity": "moderate",
+    "description": "A rabbi at the COP climate conference in Belem was reportedly repelled and treated as a representative of Israel while attempting to help Jewish participants put on tefillin.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
+  },
+  {
+    "date": "2025-12-05",
+    "location": {
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "city": "Sao Paulo",
+      "state": "Brazil"
+    },
+    "type": "physical_attack",
+    "severity": "high",
+    "description": "A Jewish homeless man was physically and psychologically assaulted at a shelter in Sao Paulo. CONIB reported that the violence was described as corrective and motivated by the Israel-Hamas war.",
+    "source_url": "https://static.poder360.com.br/2026/03/Relatorio_Antissemitismo-no-Brasil-2025-FULL-PORT_vOK_web.pdf",
+    "source_name": "CONIB",
+    "verified": true
   }
 ]
