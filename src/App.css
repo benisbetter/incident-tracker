@@ -622,3 +622,102 @@ html, body {
     width: 100%;
   }
 }
+
+@media (max-width: 640px) {
+  .app {
+    padding: 16px 12px 0;
+  }
+
+  .app-header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .app-title {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .app-header h1 {
+    font-size: 20px;
+  }
+
+  .app-header-stats {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .app-header-stat {
+    flex: 1;
+    min-width: 130px;
+    align-items: center;
+    padding: 8px 10px;
+  }
+
+  .app-header-stat-number {
+    font-size: 16px;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .filter-types {
+    justify-content: center;
+  }
+
+  .type-chip {
+    padding: 8px 12px;
+  }
+
+  .filter-dates {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .filter-dates input[type='date'] {
+    font-size: 16px; /* iOS Safari zooms in on inputs below 16px */
+  }
+
+  .reset-btn {
+    align-self: stretch;
+  }
+
+  .main-tabs {
+    flex-wrap: wrap;
+  }
+
+  .fullscreen-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .app-fullscreen .map-column,
+  .app-fullscreen .globe-container {
+    min-height: max(360px, calc(100vh - 170px));
+  }
+
+  .map-column,
+  .globe-container {
+    min-height: max(360px, calc(100vh - 380px));
+  }
+
+  .incident-drawer-header {
+    padding: 12px;
+  }
+
+  .drawer-toggle {
+    padding: 10px 8px;
+  }
+
+  .incident-detail-panel {
+    padding: 16px;
+  }
+
+  .donate-links a {
+    flex: 1 1 40%;
+    text-align: center;
+  }
+}
