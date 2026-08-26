@@ -92,9 +92,14 @@ function convert(raw) {
     if (!type) continue
 
     const lat = parseFloat(r.latitude)
-    const lng = parseFloat(r.longitude)
+    let lng = parseFloat(r.longitude)
     if (!lat || !lng || Number.isNaN(lat) || Number.isNaN(lng)) continue
     if (!r.body || !r.body.trim()) continue
+
+    // ADL's raw feed occasionally has the longitude sign flipped for a US
+    // record (plots it in Asia instead of the US). Every US state is west
+    // of the prime meridian, so a positive longitude here is always wrong.
+    if (STATE_ABBR[r.state_code] && lng > 0) lng = -lng
 
     out.push({
       date,
