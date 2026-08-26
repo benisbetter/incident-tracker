@@ -20,8 +20,12 @@ const COUNTRY_MARKERS = Object.entries(countryTotals).map(([country, info]) => (
 
 const COUNTRIES_WITH_TOTAL_PIN = new Set(Object.keys(countryTotals))
 
+// CartoDB's free tile endpoint started requiring an API key on real
+// deployments (worked on localhost, showed "API KEY REQUIRED" watermarks
+// once actually deployed) — switched to Esri's dark basemap, which is free
+// with no key on any domain. Note the tile order is z/y/x here, not z/x/y.
 function darkTileUrl(x, y, l) {
-  return `https://a.basemaps.cartocdn.com/dark_all/${l}/${x}/${y}.png`
+  return `https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/${l}/${y}/${x}`
 }
 
 function clusterPoints(points, binDeg) {
