@@ -26,6 +26,12 @@ const STATE_ABBR = {
   'West Virginia': 'WV', Wisconsin: 'WI', Wyoming: 'WY', 'District of Columbia': 'DC',
 }
 
+// ADL sends state_code as either the full name ("Virginia") or already
+// abbreviated ("VA") depending on the record — inconsistent in their own
+// data. Checking membership here against the *resolved* state (below)
+// instead of just STATE_ABBR's keys is what catches both forms.
+const US_STATE_ABBRS = new Set(Object.values(STATE_ABBR))
+
 function parseDate(s) {
   if (!s) return null
   const parts = s.split('/')
@@ -96,14 +102,16 @@ function convert(raw) {
     if (!lat || !lng || Number.isNaN(lat) || Number.isNaN(lng)) continue
     if (!r.body || !r.body.trim()) continue
 
+    const state = STATE_ABBR[r.state_code] || r.state_code || ''
+
     // ADL's raw feed occasionally has the longitude sign flipped for a US
     // record (plots it in Asia instead of the US). Every US state is west
     // of the prime meridian, so a positive longitude here is always wrong.
-    if (STATE_ABBR[r.state_code] && lng > 0) lng = -lng
+    if (US_STATE_ABBRS.has(state) && lng > 0) lng = -lng
 
     out.push({
       date,
-      location: { lat, lng, city: r.city || '', state: STATE_ABBR[r.state_code] || r.state_code || '' },
+      location: { lat, lng, city: r.city || '', state },
       type,
       severity: toSeverity(type, r.body),
       description: r.body.trim(),
