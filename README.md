@@ -1,10 +1,10 @@
 # Antisemitism Incident Tracker
 
-Interactive globe + charts of antisemitic incidents reported since October 7, 2023. Built for live display on a podcast recording.
+Interactive 2D map + charts of antisemitic incidents reported since October 7, 2023. Built for live display on a podcast recording.
 
 ## Stack
 
-React 18 + Vite, react-globe.gl (3D globe, no API key needed), recharts (charts). No traditional backend — one small Vercel serverless function (`api/incidents.js`) keeps the data current; the app also ships a static snapshot (`src/data/incidents.json`) so it works fully offline or run locally with no deployment.
+React 18 + Vite, react-leaflet + leaflet.markercluster (2D map, no API key needed), recharts (charts). No traditional backend — one small Vercel serverless function (`api/incidents.js`) keeps the data current; the app also ships a static snapshot (`src/data/incidents.json`) so it works fully offline or run locally with no deployment.
 
 ## Run it locally
 

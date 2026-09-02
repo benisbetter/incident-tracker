@@ -242,11 +242,14 @@ html, body {
 }
 
 .globe-container {
+  position: absolute;
+  inset: 0;
+}
+
+.leaflet-container {
+  background: transparent;
   width: 100%;
   height: 100%;
-  min-height: max(420px, calc(100vh - 320px));
-  position: relative;
-  z-index: 0;
 }
 
 .app-fullscreen .map-column,

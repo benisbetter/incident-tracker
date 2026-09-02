@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import rawIncidents from './data/incidents.json'
-import GlobeView from './components/GlobeView'
+import MapView from './components/MapView'
 import ChartsPanel from './components/ChartsPanel'
 import FilterBar from './components/FilterBar'
 import IncidentDrawer from './components/IncidentDrawer'
@@ -126,7 +126,7 @@ export default function App() {
 
       <div className="main-tabs">
         <button className={`main-tab ${mainTab === 'globe' ? 'active' : ''}`} onClick={() => setMainTab('globe')}>
-          Globe
+          Map
         </button>
         <button className={`main-tab ${mainTab === 'charts' ? 'active' : ''}`} onClick={() => setMainTab('charts')}>
           Charts
@@ -138,7 +138,7 @@ export default function App() {
           {isFullscreen ? '⤡' : '⤢'}
         </button>
         <div className="map-column" style={{ display: mainTab === 'globe' ? 'block' : 'none' }}>
-          <GlobeView
+          <MapView
             incidents={filteredIncidents}
             onSelectIncident={setSelected}
             onClusterSelect={(items, meta) => {
